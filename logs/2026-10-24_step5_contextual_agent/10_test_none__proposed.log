@@ -1,0 +1,28 @@
+[MT_132] running controller ...
+[MT_269] running controller ...
+[MT_163] running controller ...
+[MT_024] running controller ...
+[MT_024] det MAPE 7.07% CV-RMSE 9.25% | best-single sarima MAPE 7.42% | drift 6 | 237.4s
+[MT_135] running controller ...
+[MT_132] det MAPE 5.15% CV-RMSE 6.62% | best-single lightgbm MAPE 6.11% | drift 8 | 268.6s
+[MT_105] running controller ...
+[MT_269] det MAPE 3.13% CV-RMSE 4.53% | best-single sarima MAPE 3.26% | drift 11 | 331.7s
+[MT_121] running controller ...
+[MT_163] det MAPE 3.12% CV-RMSE 4.61% | best-single sarima MAPE 3.31% | drift 15 | 337.3s
+[MT_118] running controller ...
+[MT_135] det MAPE 12.37% CV-RMSE 15.32% | best-single lightgbm MAPE 13.30% | drift 10 | 269.0s
+[MT_105] det MAPE 5.20% CV-RMSE 5.76% | best-single sarima MAPE 5.52% | drift 12 | 261.6s
+[MT_118] det MAPE 1.33% CV-RMSE 2.42% | best-single sarima MAPE 1.42% | drift 12 | 271.9s
+[MT_121] det MAPE 1.02% CV-RMSE 2.15% | best-single lightgbm MAPE 1.11% | drift 19 | 345.4s
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    72.53  RMSE   111.45  CV-RMSE   6.94%  MAPE   5.18%
+  equal_weight_ensemble    MAE    79.34  RMSE   117.39  CV-RMSE   7.49%  MAPE   6.13%
+  adaptive_deterministic   MAE    66.58  RMSE   101.26  CV-RMSE   6.33%  MAPE   4.80%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  3.53  blend-set chg  6.30  arm sw   0.00  drift 0.21  refits  4.35  |    30.9 ms/step, control  1.1%
+
+saved -> step5_results/none__proposed.json
+saved -> step5_results/none__proposed_streams.json

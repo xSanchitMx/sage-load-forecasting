@@ -1,0 +1,85 @@
+{
+  "MT_132": {
+    "best_static_single": {
+      "MAE": 200.31832946534948,
+      "RMSE": 277.18951749979334,
+      "CV_RMSE": 4.683449959361144,
+      "MAPE": 3.4640221260501427,
+      "DirAcc": 73.73737373737373,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 236.0373330038227,
+      "RMSE": 302.36573347454714,
+      "CV_RMSE": 5.108832379112699,
+      "MAPE": 4.167624033300716,
+      "DirAcc": 67.67676767676768,
+      "Regret": 3571.9003538473225
+    },
+    "adaptive_deterministic": {
+      "MAE": 207.25015996273652,
+      "RMSE": 276.95540722649315,
+      "CV_RMSE": 4.679494384995044,
+      "MAPE": 3.573656779148518,
+      "DirAcc": 69.6969696969697,
+      "Regret": 693.1830497387018,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 0,
+        "blendset_changes": 1,
+        "arm_switches": 0,
+        "mean_blend_size": 2.03,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 300,
+        "refits_total": 300,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 100,
+          "sarima": 100,
+          "lightgbm": 100,
+          "online_linear": 0
+        },
+        "total_sec": 319.21126651202576,
+        "ms_per_step": 3192.1126651202576,
+        "ms_per_step_by_phase": {
+          "predict": 2.7024648199949297,
+          "update": 17.24362490032945,
+          "retrain_drift": 0.001128410003730096,
+          "retrain_scheduled": 3172.1196268602216,
+          "control": 0.04582012970786309
+        },
+        "control_share": 1.4354170580673064e-05,
+        "model_sec": {
+          "seasonal_naive": 0.0008802929914963897,
+          "holt_winters": 0.0221811410265218,
+          "sarima": 299.5502644449407,
+          "lightgbm": 19.572247178992257,
+          "online_linear": 0.055412117013474926
+        },
+        "leader_switches_per_week": 0.0,
+        "blendset_changes_per_week": 1.68,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 504.0
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 334.4476844540004
+    },
+    "_n_steps": 100
+  },
+  "_config": {
+    "block": "test",
+    "gamma": 0.995,
+    "ucb_c": 0.2,
+    "drift_kw": {
+      "use_adwin": false,
+      "use_ph": false
+    },
+    "schedule": 1,
+    "topk": 3,
+    "demote_factor": 1.5
+  }
+}

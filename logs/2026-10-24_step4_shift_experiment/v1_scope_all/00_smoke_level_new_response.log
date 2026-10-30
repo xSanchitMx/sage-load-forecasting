@@ -1,0 +1,21 @@
+[MT_132] running controller ...
+[MT_004] running controller ...
+[MT_132] det MAPE 7.43% CV-RMSE 9.67% | best-single online_linear MAPE 7.78% | drift 3 | 45.9s
+[MT_004] det MAPE 6.05% CV-RMSE 8.31% | best-single sarima MAPE 6.42% | drift 2 | 48.3s
+/mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/run_controller.py:225: RuntimeWarning: Mean of empty slice
+  g = lambda k: float(np.nanmean([x[k] for x in sh]))
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE   238.86  RMSE   321.96  CV-RMSE   9.39%  MAPE   7.10%
+  equal_weight_ensemble    MAE   244.55  RMSE   328.39  CV-RMSE   9.49%  MAPE   7.30%
+  adaptive_deterministic   MAE   228.42  RMSE   312.26  CV-RMSE   8.99%  MAPE   6.74%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  3.70  blend-set chg  4.14  arm sw   0.00  drift 0.16  refits  4.01  |    15.1 ms/step, control  0.4%
+
+=== SHIFT RESPONSE (mean over clients; MAPE/ratio over the 168 h and 672 h after each event) ===
+  equal_weight_ensemble    detected 0/2  delay    nan h  false 0.00/wk  MAPE168   8.77%  MAPE672   7.18%  ratio168 1.50  recovery   74.0 h (not rec. 0)
+  adaptive_deterministic   detected 0/2  delay    nan h  false 0.18/wk  MAPE168   7.94%  MAPE672   6.92%  ratio168 1.44  recovery   73.0 h (not rec. 0)
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/smoke_shift_new.json

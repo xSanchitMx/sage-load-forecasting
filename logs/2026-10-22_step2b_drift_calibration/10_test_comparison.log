@@ -1,0 +1,8 @@
+<stdin>:11: RuntimeWarning: All-NaN slice encountered
+step2 (old drift: weekly timer)  adaptive_deterministic  MAPE 5.131 CV-RMSE 6.694 drift/wk 1.04 refits/wk 3.12 recMed 3.0 ms/step 18.0
+step2 (old drift: weekly timer)  adaptive_bandit         MAPE 5.014 CV-RMSE 6.786 drift/wk 1.06 refits/wk 3.19 recMed 3.5 ms/step 18.1
+calibrated drift (sparse)        adaptive_deterministic  MAPE 5.101 CV-RMSE 6.647 drift/wk 0.21 refits/wk 3.34 recMed 44.8 ms/step 20.3
+calibrated drift (sparse)        adaptive_bandit         MAPE 5.006 CV-RMSE 6.743 drift/wk 0.25 refits/wk 3.38 recMed 35.8 ms/step 19.3
+no drift                         adaptive_deterministic  MAPE 5.140 CV-RMSE 6.696 drift/wk 0.00 refits/wk 2.96 recMed nan ms/step 18.2
+no drift                         adaptive_bandit         MAPE 5.059 CV-RMSE 6.765 drift/wk 0.00 refits/wk 2.96 recMed nan ms/step 17.4
+val-chosen single MAPE 5.193

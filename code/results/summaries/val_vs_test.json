@@ -1,0 +1,242 @@
+[
+  {
+    "val": 8.574895283617497,
+    "test": 8.817902958214182,
+    "model": "seasonal_naive",
+    "client": "MT_132"
+  },
+  {
+    "val": 6.368410307700223,
+    "test": 14.904237171960071,
+    "model": "holt_winters",
+    "client": "MT_132"
+  },
+  {
+    "val": 10.952429694591384,
+    "test": 12.85934328642735,
+    "model": "sarima",
+    "client": "MT_132"
+  },
+  {
+    "val": 5.267506809647547,
+    "test": 6.085986425597054,
+    "model": "lightgbm",
+    "client": "MT_132"
+  },
+  {
+    "val": 5.289675542167274,
+    "test": 6.100145029950395,
+    "model": "online_linear",
+    "client": "MT_132"
+  },
+  {
+    "val": 5.768248938281262,
+    "test": 7.471462227333219,
+    "model": "seasonal_naive",
+    "client": "MT_269"
+  },
+  {
+    "val": 3.219815819081821,
+    "test": 42.49252640622295,
+    "model": "holt_winters",
+    "client": "MT_269"
+  },
+  {
+    "val": 9369923864.346619,
+    "test": 11.950716076065733,
+    "model": "sarima",
+    "client": "MT_269"
+  },
+  {
+    "val": 3.3638200553191604,
+    "test": 3.9647794487572727,
+    "model": "lightgbm",
+    "client": "MT_269"
+  },
+  {
+    "val": 3.420603140543204,
+    "test": 4.421587726271443,
+    "model": "online_linear",
+    "client": "MT_269"
+  },
+  {
+    "val": 7.334580702007804,
+    "test": 6.833092023685578,
+    "model": "seasonal_naive",
+    "client": "MT_163"
+  },
+  {
+    "val": 4.499676175246234,
+    "test": 45.26977266619572,
+    "model": "holt_winters",
+    "client": "MT_163"
+  },
+  {
+    "val": 12.14079899243104,
+    "test": 12.460211849883821,
+    "model": "sarima",
+    "client": "MT_163"
+  },
+  {
+    "val": 4.102885001044586,
+    "test": 3.971569259989882,
+    "model": "lightgbm",
+    "client": "MT_163"
+  },
+  {
+    "val": 4.442171611052119,
+    "test": 4.629468509835637,
+    "model": "online_linear",
+    "client": "MT_163"
+  },
+  {
+    "val": 12.590835599922146,
+    "test": 12.716091242647112,
+    "model": "seasonal_naive",
+    "client": "MT_024"
+  },
+  {
+    "val": 8.921422685594948,
+    "test": 30.737469284500467,
+    "model": "holt_winters",
+    "client": "MT_024"
+  },
+  {
+    "val": 14.575583750717694,
+    "test": 15.071351518898938,
+    "model": "sarima",
+    "client": "MT_024"
+  },
+  {
+    "val": 8.005047176292686,
+    "test": 7.869472080662171,
+    "model": "lightgbm",
+    "client": "MT_024"
+  },
+  {
+    "val": 7.996690236254047,
+    "test": 7.99892021626831,
+    "model": "online_linear",
+    "client": "MT_024"
+  },
+  {
+    "val": 15.174254508522589,
+    "test": 19.69702202756562,
+    "model": "seasonal_naive",
+    "client": "MT_135"
+  },
+  {
+    "val": 32.99141975570835,
+    "test": 83.955829771165,
+    "model": "holt_winters",
+    "client": "MT_135"
+  },
+  {
+    "val": 51.215101504971436,
+    "test": 69.48247219385512,
+    "model": "sarima",
+    "client": "MT_135"
+  },
+  {
+    "val": 11.322559521580217,
+    "test": 13.465351535106981,
+    "model": "lightgbm",
+    "client": "MT_135"
+  },
+  {
+    "val": 15.290693709637914,
+    "test": 17.471896483459474,
+    "model": "online_linear",
+    "client": "MT_135"
+  },
+  {
+    "val": 9.580041939563328,
+    "test": 15.171813454012966,
+    "model": "seasonal_naive",
+    "client": "MT_105"
+  },
+  {
+    "val": 6.117918181626832,
+    "test": 12.194733061958823,
+    "model": "holt_winters",
+    "client": "MT_105"
+  },
+  {
+    "val": 14.947137077728744,
+    "test": 24.383000107612222,
+    "model": "sarima",
+    "client": "MT_105"
+  },
+  {
+    "val": 4.432270034115519,
+    "test": 6.486374957941231,
+    "model": "lightgbm",
+    "client": "MT_105"
+  },
+  {
+    "val": 3.8022857799752665,
+    "test": 5.746595177752511,
+    "model": "online_linear",
+    "client": "MT_105"
+  },
+  {
+    "val": 2.8207021671801216,
+    "test": 2.7425230434972003,
+    "model": "seasonal_naive",
+    "client": "MT_121"
+  },
+  {
+    "val": 2.656405106330724,
+    "test": 4.873088633396543,
+    "model": "holt_winters",
+    "client": "MT_121"
+  },
+  {
+    "val": 5.187518813958177,
+    "test": 4.460402367095209,
+    "model": "sarima",
+    "client": "MT_121"
+  },
+  {
+    "val": 1.2082802619504478,
+    "test": 1.1174446713910433,
+    "model": "lightgbm",
+    "client": "MT_121"
+  },
+  {
+    "val": 1.5278827756161553,
+    "test": 1.3841265718222224,
+    "model": "online_linear",
+    "client": "MT_121"
+  },
+  {
+    "val": 3.1471814315059485,
+    "test": 3.489785839833901,
+    "model": "seasonal_naive",
+    "client": "MT_118"
+  },
+  {
+    "val": 2.0396471477969595,
+    "test": 4.262181947296355,
+    "model": "holt_winters",
+    "client": "MT_118"
+  },
+  {
+    "val": 3.989932354109063,
+    "test": 4.636548992290002,
+    "model": "sarima",
+    "client": "MT_118"
+  },
+  {
+    "val": 1.5656358292918628,
+    "test": 1.433066698680805,
+    "model": "lightgbm",
+    "client": "MT_118"
+  },
+  {
+    "val": 1.7166978723022082,
+    "test": 1.5844117966097606,
+    "model": "online_linear",
+    "client": "MT_118"
+  }
+]

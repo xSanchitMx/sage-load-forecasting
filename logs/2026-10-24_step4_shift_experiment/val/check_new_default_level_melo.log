@@ -1,0 +1,34 @@
+[MT_132] running controller ...
+[MT_269] running controller ...
+[MT_163] running controller ...
+[MT_024] running controller ...
+[MT_135] running controller ...
+[MT_105] running controller ...
+[MT_121] running controller ...
+[MT_118] running controller ...
+[MT_024] det MAPE 7.22% CV-RMSE 9.59% | best-single sarima MAPE 7.65% | drift 2 | 94.3s
+[MT_132] det MAPE 4.24% CV-RMSE 4.93% | best-single sarima MAPE 4.00% | drift 4 | 109.6s
+[MT_135] det MAPE 12.29% CV-RMSE 15.80% | best-single lightgbm MAPE 12.23% | drift 8 | 111.3s
+[MT_105] det MAPE 3.56% CV-RMSE 5.04% | best-single sarima MAPE 3.81% | drift 4 | 120.7s
+[MT_118] det MAPE 1.51% CV-RMSE 2.60% | best-single sarima MAPE 1.60% | drift 7 | 122.9s
+[MT_163] det MAPE 3.33% CV-RMSE 4.61% | best-single sarima MAPE 3.41% | drift 4 | 123.7s
+[MT_269] det MAPE 2.74% CV-RMSE 3.75% | best-single sarima MAPE 2.85% | drift 3 | 128.0s
+[MT_121] det MAPE 1.31% CV-RMSE 3.01% | best-single sarima MAPE 1.39% | drift 7 | 133.3s
+/mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/run_controller.py:225: RuntimeWarning: Mean of empty slice
+  g = lambda k: float(np.nanmean([x[k] for x in sh]))
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    66.01  RMSE   106.39  CV-RMSE   6.49%  MAPE   4.62%
+  equal_weight_ensemble    MAE    81.79  RMSE   124.73  CV-RMSE   7.21%  MAPE   5.70%
+  adaptive_deterministic   MAE    63.54  RMSE   101.96  CV-RMSE   6.17%  MAPE   4.52%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  2.79  blend-set chg  7.83  arm sw   0.00  drift 0.21  refits  4.33  |    28.0 ms/step, control  1.2%
+
+=== SHIFT RESPONSE (mean over clients; MAPE/ratio over the 168 h and 672 h after each event) ===
+  equal_weight_ensemble    detected 0/16  delay    nan h  false 0.00/wk  MAPE168  10.30%  MAPE672   6.45%  ratio168 3.00  recovery  216.2 h (not rec. 0)
+  adaptive_deterministic   detected 10/16  delay   22.0 h  false 0.15/wk  MAPE168   5.99%  MAPE672   4.62%  ratio168 1.59  recovery   62.7 h (not rec. 0)
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/check_default.json
+max |MAPE diff| new default vs melo_follow: 0.0

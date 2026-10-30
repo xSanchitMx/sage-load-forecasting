@@ -1,0 +1,16 @@
+[MT_132] running controller ...
+[MT_004] running controller ...
+[MT_004] det MAPE 6.44% CV-RMSE 8.43% | best-single sarima MAPE 6.56% | drift 1 | 11.6s
+[MT_132] det MAPE 4.28% CV-RMSE 5.92% | best-single sarima MAPE 4.39% | drift 1 | 12.7s
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE   136.59  RMSE   201.69  CV-RMSE   7.35%  MAPE   5.47%
+  equal_weight_ensemble    MAE   194.47  RMSE   280.20  CV-RMSE   9.43%  MAPE   7.49%
+  adaptive_deterministic   MAE   135.31  RMSE   197.77  CV-RMSE   7.17%  MAPE   5.36%
+  adaptive_bandit          MAE   135.86  RMSE   198.56  CV-RMSE   7.30%  MAPE   5.42%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  0.21  blend-set chg 36.75  arm sw   0.00  drift 0.42  refits  3.15  |    12.7 ms/step, control  1.5%
+  adaptive_bandit          leader sw  0.21  blend-set chg 36.75  arm sw   0.63  drift 0.42  refits  3.15  |    12.4 ms/step, control  1.6%
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/smoke_melo.json

@@ -1,0 +1,33 @@
+  MELO (served by the proposed system)         none 4.330  level 4.524  ramp 4.475  ampli 18.249  tempo 4.610  | mean 7.238 
+  per-step oracle (hindsight, not achievable)  none 1.994  level 2.060  ramp 2.055  ampli 3.759  tempo 2.114  | mean 2.396 
+  {"mode": "argmin", "forget": 0.99, "margin": 0.0} none 4.427  level 4.640  ramp 4.557  ampli 8.427  tempo 4.846  | mean 5.379 override 64.1%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.1} none 4.370  level 4.565  ramp 4.485  ampli 8.342  tempo 4.765  | mean 5.306 override 35.5%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.25} none 4.316  level 4.542  ramp 4.435  ampli 8.436  tempo 4.696  | mean 5.285 override 16.1%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.5} none 4.320  level 4.526  ramp 4.437  ampli 18.068  tempo 4.683  | mean 7.207 override 5.2%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.0} none 4.428  level 4.637  ramp 4.557  ampli 8.435  tempo 4.847  | mean 5.381 override 64.2%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.1} none 4.364  level 4.565  ramp 4.483  ampli 8.374  tempo 4.768  | mean 5.311 override 35.4%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.25} none 4.316  level 4.542  ramp 4.435  ampli 8.434  tempo 4.698  | mean 5.285 override 16.0%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.5} none 4.319  level 4.528  ramp 4.435  ampli 18.065  tempo 4.680  | mean 7.205 override 5.2%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.0} none 4.446  level 4.622  ramp 4.555  ampli 8.473  tempo 4.848  | mean 5.389 override 64.3%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.1} none 4.368  level 4.560  ramp 4.487  ampli 8.368  tempo 4.770  | mean 5.310 override 35.9%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.25} none 4.311  level 4.507  ramp 4.432  ampli 8.443  tempo 4.698  | mean 5.278 override 16.4%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.5} none 4.311  level 4.518  ramp 4.444  ampli 8.338  tempo 4.677  | mean 5.258 override 5.1%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.0} none 4.439  level 4.683  ramp 4.580  ampli 8.628  tempo 4.884  | mean 5.443 override 62.4%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.1} none 4.367  level 4.644  ramp 4.529  ampli 8.543  tempo 4.806  | mean 5.378 override 34.7%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.25} none 4.335  level 4.578  ramp 4.475  ampli 8.367  tempo 4.744  | mean 5.300 override 15.3%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.5} none 4.324  level 4.540  ramp 4.477  ampli 18.072  tempo 4.719  | mean 7.226 override 4.6%
+  {"mode": "soft", "forget": 0.995, "temp": 0.05} none 4.334  level 4.539  ramp 4.455  ampli 8.229  tempo 4.742  | mean 5.260 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.1} none 4.274  level 4.482  ramp 4.395  ampli 8.163  tempo 4.663  | mean 5.195 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.3} none 4.222  level 4.404  ramp 4.338  ampli 11.065  tempo 4.567  | mean 5.719 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 1.0} none 4.334  level 4.471  ramp 4.414  ampli 16.259  tempo 4.625  | mean 6.821 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.05} none 4.341  level 4.533  ramp 4.444  ampli 8.244  tempo 4.737  | mean 5.260 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.1} none 4.280  level 4.472  ramp 4.384  ampli 8.140  tempo 4.651  | mean 5.186 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.3} none 4.224  level 4.392  ramp 4.330  ampli 10.949  tempo 4.532  | mean 5.685 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 1.0} none 4.333  level 4.464  ramp 4.410  ampli 16.229  tempo 4.605  | mean 6.808 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.05} none 4.342  level 4.593  ramp 4.477  ampli 8.421  tempo 4.771  | mean 5.321 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.1} none 4.282  level 4.529  ramp 4.412  ampli 8.318  tempo 4.693  | mean 5.247 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.3} none 4.232  level 4.430  ramp 4.357  ampli 10.895  tempo 4.597  | mean 5.702 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 1.0} none 4.349  level 4.489  ramp 4.428  ampli 16.237  tempo 4.651  | mean 6.831 override 95.7%
+
+best: {"mode": "soft", "forget": 0.999, "temp": 0.1}  mean 5.186  (MELO 7.238)
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/agent_tuning.json

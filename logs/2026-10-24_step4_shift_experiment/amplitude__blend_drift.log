@@ -1,0 +1,33 @@
+[MT_132] running controller ...
+[MT_269] running controller ...
+[MT_163] running controller ...
+[MT_024] running controller ...
+[MT_024] det MAPE 9.37% CV-RMSE 11.36% | best-single sarima MAPE 9.63% | drift 6 | 235.8s
+[MT_135] running controller ...
+[MT_132] det MAPE 6.63% CV-RMSE 8.53% | best-single lightgbm MAPE 7.20% | drift 7 | 257.8s
+[MT_105] running controller ...
+[MT_269] det MAPE 4.44% CV-RMSE 5.76% | best-single sarima MAPE 4.19% | drift 11 | 299.9s
+[MT_121] running controller ...
+[MT_163] det MAPE 4.64% CV-RMSE 6.18% | best-single sarima MAPE 4.51% | drift 19 | 312.2s
+[MT_118] running controller ...
+[MT_135] det MAPE 43.84% CV-RMSE 19.70% | best-single lightgbm MAPE 57.17% | drift 10 | 255.2s
+[MT_105] det MAPE 5.47% CV-RMSE 7.02% | best-single sarima MAPE 5.67% | drift 13 | 248.7s
+[MT_118] det MAPE 1.62% CV-RMSE 2.81% | best-single lightgbm MAPE 1.72% | drift 13 | 250.7s
+[MT_121] det MAPE 1.19% CV-RMSE 2.32% | best-single lightgbm MAPE 1.28% | drift 13 | 280.6s
+/mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/run_controller.py:225: RuntimeWarning: Mean of empty slice
+  g = lambda k: float(np.nanmean([x[k] for x in sh]))
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    88.29  RMSE   134.58  CV-RMSE   8.21%  MAPE  11.42%
+  equal_weight_ensemble    MAE    97.30  RMSE   144.07  CV-RMSE   8.86%  MAPE  12.41%
+  adaptive_deterministic   MAE    85.72  RMSE   129.58  CV-RMSE   7.96%  MAPE   9.65%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  1.71  blend-set chg  1.75  arm sw   0.00  drift 0.21  refits  3.34  |    28.4 ms/step, control  0.2%
+
+=== SHIFT RESPONSE (mean over clients; MAPE/ratio over the 168 h and 672 h after each event) ===
+  equal_weight_ensemble    detected 0/16  delay    nan h  false 0.00/wk  MAPE168  17.29%  MAPE672  20.71%  ratio168 1.78  recovery   85.0 h (not rec. 6)
+  adaptive_deterministic   detected 9/16  delay   86.2 h  false 0.18/wk  MAPE168  12.05%  MAPE672  14.42%  ratio168 1.56  recovery   30.3 h (not rec. 7)
+
+saved -> step4_results/amplitude__blend_drift.json

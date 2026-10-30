@@ -1,0 +1,96 @@
+{
+  "MT_135": {
+    "best_static_single": {
+      "MAE": 40.38027525204532,
+      "RMSE": 70.17863661702944,
+      "CV_RMSE": 17.7299795168954,
+      "MAPE": 13.263005008702835,
+      "DirAcc": 78.67032967032968,
+      "Regret": 0.0,
+      "which": "lightgbm"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 48.235654483044385,
+      "RMSE": 72.10601780298956,
+      "CV_RMSE": 18.216914438911683,
+      "MAPE": 18.118511463499082,
+      "DirAcc": 74.3956043956044,
+      "Regret": 72324.4765798084
+    },
+    "adaptive_deterministic": {
+      "MAE": 37.11477468602163,
+      "RMSE": 60.904876562374426,
+      "CV_RMSE": 15.387050333034091,
+      "MAPE": 11.52554183003583,
+      "DirAcc": 79.67032967032966,
+      "Regret": -30065.463711380085,
+      "RecoveryMedian": 52.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 11,
+      "ops": {
+        "leader_switches": 137,
+        "blendset_changes": 613,
+        "arm_switches": 0,
+        "mean_blend_size": 10.556315846638427,
+        "drift_events": 11,
+        "refits_drift": 33,
+        "refits_scheduled": 129,
+        "refits_followup": 75,
+        "refits_total": 237,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 79,
+          "sarima": 79,
+          "lightgbm": 79,
+          "online_linear": 0
+        },
+        "total_sec": 157.63708780092747,
+        "ms_per_step": 17.121438883558977,
+        "ms_per_step_by_phase": {
+          "predict": 1.1824342579417397,
+          "update": 2.148656224285247,
+          "retrain_drift": 6.101765244811521,
+          "retrain_scheduled": 7.339112406216439,
+          "control": 0.34947075030402786
+        },
+        "control_share": 0.020411295609016278,
+        "model_sec": {
+          "seasonal_naive": 0.019934443138481583,
+          "holt_winters": 0.050060916890288354,
+          "sarima": 141.56553307100694,
+          "lightgbm": 10.654415824998068,
+          "online_linear": 1.9874178420777753
+        },
+        "combiner_resets": 0,
+        "leader_switches_per_week": 2.4998370804822416,
+        "blendset_changes_per_week": 11.185402411208862,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.20071684587813618,
+        "refits_total_per_week": 4.324535679374389
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 165.14016057300068
+    },
+    "_n_steps": 9207
+  },
+  "_config": {
+    "block": "test",
+    "gamma": 0.995,
+    "ucb_c": 0.2,
+    "drift_kw": null,
+    "schedule": 168,
+    "topk": 3,
+    "demote_factor": 1.5,
+    "combiner": "melo",
+    "melo_eps0": 0.01,
+    "melo_reset": null,
+    "alarm_response": {},
+    "agent": {
+      "mode": "soft",
+      "forget": 0.999,
+      "temp": 0.3
+    },
+    "shift": "none"
+  }
+}

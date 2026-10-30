@@ -1,0 +1,42 @@
+  MELO (served by the proposed system)         MAPE  4.330  4.524  4.475 18.249  4.610 | rel 1.000 1.000 1.000 1.000 1.000 | rel mean 1.0000  CV mean 6.544 
+  per-step oracle (hindsight, not achievable)  MAPE  1.994  2.060  2.055  3.759  2.114 | rel 0.475 0.470 0.478 0.436 0.477 | rel mean 0.4673  CV mean 4.001 
+  {"mode": "argmin", "forget": 0.99, "margin": 0.0} MAPE  4.427  4.640  4.557  8.427  4.846 | rel 1.030 1.039 1.027 0.956 1.073 | rel mean 1.0249  CV mean 6.847 override 64.1%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.1} MAPE  4.370  4.565  4.485  8.342  4.765 | rel 1.020 1.022 1.011 0.938 1.055 | rel mean 1.0093  CV mean 6.757 override 35.5%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.25} MAPE  4.316  4.542  4.435  8.436  4.696 | rel 1.007 1.011 1.001 0.928 1.038 | rel mean 0.9972  CV mean 6.668 override 16.1%
+  {"mode": "argmin", "forget": 0.99, "margin": 0.5} MAPE  4.320  4.526  4.437 18.068  4.683 | rel 1.002 1.002 0.999 1.002 1.028 | rel mean 1.0068  CV mean 6.607 override 5.2%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.0} MAPE  4.428  4.637  4.557  8.435  4.847 | rel 1.030 1.038 1.027 0.954 1.073 | rel mean 1.0244  CV mean 6.844 override 64.2%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.1} MAPE  4.364  4.565  4.483  8.374  4.768 | rel 1.016 1.022 1.011 0.938 1.056 | rel mean 1.0084  CV mean 6.735 override 35.4%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.25} MAPE  4.316  4.542  4.435  8.434  4.698 | rel 1.007 1.011 1.001 0.928 1.039 | rel mean 0.9971  CV mean 6.669 override 16.0%
+  {"mode": "argmin", "forget": 0.995, "margin": 0.5} MAPE  4.319  4.528  4.435 18.065  4.680 | rel 1.002 1.003 0.999 1.002 1.028 | rel mean 1.0066  CV mean 6.605 override 5.2%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.0} MAPE  4.446  4.622  4.555  8.473  4.848 | rel 1.036 1.037 1.025 0.956 1.073 | rel mean 1.0255  CV mean 6.873 override 64.3%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.1} MAPE  4.368  4.560  4.487  8.368  4.770 | rel 1.019 1.021 1.009 0.939 1.056 | rel mean 1.0090  CV mean 6.767 override 35.9%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.25} MAPE  4.311  4.507  4.432  8.443  4.698 | rel 1.006 1.009 1.000 0.928 1.040 | rel mean 0.9965  CV mean 6.663 override 16.4%
+  {"mode": "argmin", "forget": 0.999, "margin": 0.5} MAPE  4.311  4.518  4.444  8.338  4.677 | rel 1.001 1.002 0.998 0.920 1.028 | rel mean 0.9898  CV mean 6.600 override 5.1%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.0} MAPE  4.439  4.683  4.580  8.628  4.884 | rel 1.033 1.045 1.032 0.959 1.080 | rel mean 1.0297  CV mean 6.840 override 62.4%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.1} MAPE  4.367  4.644  4.529  8.543  4.806 | rel 1.017 1.034 1.020 0.942 1.062 | rel mean 1.0148  CV mean 6.736 override 34.7%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.25} MAPE  4.335  4.578  4.475  8.367  4.744 | rel 1.005 1.017 1.007 0.926 1.046 | rel mean 1.0003  CV mean 6.645 override 15.3%
+  {"mode": "argmin", "forget": 1.0, "margin": 0.5} MAPE  4.324  4.540  4.477 18.072  4.719 | rel 1.001 1.006 1.004 1.004 1.032 | rel mean 1.0094  CV mean 6.586 override 4.6%
+  {"mode": "soft", "forget": 0.995, "temp": 0.05} MAPE  4.334  4.539  4.455  8.229  4.742 | rel 1.008 1.017 1.005 0.933 1.051 | rel mean 1.0029  CV mean 6.736 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.1} MAPE  4.274  4.482  4.395  8.163  4.663 | rel 0.996 1.004 0.992 0.922 1.035 | rel mean 0.9900  CV mean 6.671 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.3} MAPE  4.222  4.404  4.338 11.065  4.567 | rel 0.987 0.986 0.982 0.941 1.012 | rel mean 0.9815  CV mean 6.578 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 1.0} MAPE  4.334  4.471  4.414 16.259  4.625 | rel 1.010 0.995 0.998 1.003 1.017 | rel mean 1.0046  CV mean 6.576 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.05} MAPE  4.341  4.533  4.444  8.244  4.737 | rel 1.012 1.017 1.002 0.936 1.051 | rel mean 1.0036  CV mean 6.755 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.1} MAPE  4.280  4.472  4.384  8.140  4.651 | rel 0.999 1.004 0.990 0.924 1.032 | rel mean 0.9897  CV mean 6.682 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.3} MAPE  4.224  4.392  4.330 10.949  4.532 | rel 0.988 0.984 0.979 0.940 1.004 | rel mean 0.9792  CV mean 6.576 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 1.0} MAPE  4.333  4.464  4.410 16.229  4.605 | rel 1.010 0.994 0.996 1.004 1.012 | rel mean 1.0031  CV mean 6.570 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.05} MAPE  4.342  4.593  4.477  8.421  4.771 | rel 1.010 1.025 1.009 0.938 1.058 | rel mean 1.0081  CV mean 6.736 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.1} MAPE  4.282  4.529  4.412  8.318  4.693 | rel 0.998 1.012 0.995 0.926 1.041 | rel mean 0.9945  CV mean 6.668 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 0.3} MAPE  4.232  4.430  4.357 10.895  4.597 | rel 0.988 0.990 0.985 0.942 1.018 | rel mean 0.9846  CV mean 6.576 override 95.7%
+  {"mode": "soft", "forget": 1.0, "temp": 1.0} MAPE  4.349  4.489  4.428 16.237  4.651 | rel 1.013 0.999 1.000 1.006 1.022 | rel mean 1.0080  CV mean 6.581 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.1, "loss_power": 2} MAPE  4.779  5.061  4.996  9.114  5.283 | rel 1.101 1.134 1.121 1.013 1.167 | rel mean 1.1070  CV mean 7.061 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 0.3, "loss_power": 2} MAPE  4.695  4.978  4.901  8.938  5.195 | rel 1.081 1.115 1.099 0.993 1.148 | rel mean 1.0872  CV mean 6.977 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 1.0, "loss_power": 2} MAPE  4.527  4.790  4.714  9.219  4.995 | rel 1.044 1.071 1.058 0.965 1.104 | rel mean 1.0483  CV mean 6.804 override 95.7%
+  {"mode": "soft", "forget": 0.995, "temp": 3.0, "loss_power": 2} MAPE  4.399  4.601  4.548 14.003  4.811 | rel 1.019 1.027 1.026 0.991 1.063 | rel mean 1.0252  CV mean 6.652 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.1, "loss_power": 2} MAPE  4.757  5.012  4.946  9.223  5.278 | rel 1.101 1.130 1.108 1.013 1.169 | rel mean 1.1041  CV mean 7.049 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 0.3, "loss_power": 2} MAPE  4.681  4.931  4.858  9.078  5.190 | rel 1.081 1.112 1.088 0.995 1.151 | rel mean 1.0855  CV mean 6.967 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 1.0, "loss_power": 2} MAPE  4.520  4.753  4.678  9.527  4.984 | rel 1.044 1.069 1.049 0.969 1.106 | rel mean 1.0472  CV mean 6.793 override 95.7%
+  {"mode": "soft", "forget": 0.999, "temp": 3.0, "loss_power": 2} MAPE  4.399  4.582  4.526 14.421  4.804 | rel 1.020 1.025 1.019 0.996 1.062 | rel mean 1.0245  CV mean 6.645 override 95.7%
+
+(scenario order: none, level, ramp, amplitude, temporary)
+best (lowest mean relative MAPE): {"mode": "soft", "forget": 0.999, "temp": 0.3}  rel 0.9792  CV 6.576  (MELO rel 1.0000, CV 6.544)
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/agent_tuning.json

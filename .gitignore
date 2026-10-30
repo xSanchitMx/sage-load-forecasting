@@ -1,0 +1,31 @@
+# Whitelist: only the source code, the dataset the code uses, run logs and the paper go to GitHub.
+/*
+!/.gitignore
+!/README.md
+!/RENAMES.md
+!/code/
+!/Dataset/
+!/logs/
+!/paper/
+!/Project_Explainer.docx
+!/Code_Explainer.docx
+
+# environment and caches
+code/.venv/
+**/__pycache__/
+*.pyc
+~$*
+
+# dataset: keep the hourly CSV the code reads + the download script; the 711 MB raw UCI file is downloaded
+Dataset/*
+!Dataset/README.md
+!Dataset/download_dataset.py
+!Dataset/electricity_hourly_2012_2014.csv
+
+# paper: the current version and its figures only
+paper/*
+!paper/paper.docx
+!paper/paper.pdf
+!paper/figures_v2/
+!paper/architecture_icons.png
+!paper/architecture_pictorial_v2.png

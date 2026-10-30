@@ -1,0 +1,14 @@
+[MT_132] running controller ...
+[MT_132] det MAPE 3.57% CV-RMSE 4.68% | best-single sarima MAPE 3.46% | drift 0 | 334.4s
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE   200.32  RMSE   277.19  CV-RMSE   4.68%  MAPE   3.46%
+  equal_weight_ensemble    MAE   236.04  RMSE   302.37  CV-RMSE   5.11%  MAPE   4.17%
+  adaptive_deterministic   MAE   207.25  RMSE   276.96  CV-RMSE   4.68%  MAPE   3.57%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  0.00  blend-set chg  1.68  arm sw   0.00  drift 0.00  refits 504.00  |  3192.1 ms/step, control  0.0%
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/probe_100.json
+steps=100 wall=386.99 s

@@ -1,0 +1,579 @@
+{
+  "MT_132": {
+    "best_static_single": {
+      "MAE": 185.79374388174082,
+      "RMSE": 328.37740986175277,
+      "CV_RMSE": 5.093077379241593,
+      "MAPE": 3.9301734882270254,
+      "DirAcc": 71.85750636132315,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 206.56143962893935,
+      "RMSE": 336.9118026844164,
+      "CV_RMSE": 5.2254443500663195,
+      "MAPE": 5.093061648168462,
+      "DirAcc": 69.64376590330788,
+      "Regret": 81928.55972269818
+    },
+    "adaptive_deterministic": {
+      "MAE": 182.12441559758233,
+      "RMSE": 309.6854100077523,
+      "CV_RMSE": 4.803167663255721,
+      "MAPE": 4.383985349845299,
+      "DirAcc": 73.00254452926208,
+      "Regret": -14475.500081005273,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 51,
+        "blendset_changes": 43,
+        "arm_switches": 0,
+        "mean_blend_size": 2.8580481622306717,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 71.77449747601531,
+        "ms_per_step": 18.193788967304265,
+        "ms_per_step_by_phase": {
+          "predict": 1.5720671548762573,
+          "update": 2.9684427214140205,
+          "retrain_drift": 0.00037800937241648,
+          "retrain_scheduled": 13.623115236507829,
+          "control": 0.029785845133738446
+        },
+        "control_share": 0.001637143598140336,
+        "model_sec": {
+          "seasonal_naive": 0.009789454002202547,
+          "holt_winters": 0.028720804991280602,
+          "sarima": 65.74320693995196,
+          "lightgbm": 4.716283344976546,
+          "online_linear": 1.0863091350338436
+        },
+        "leader_switches_per_week": 2.171863117870722,
+        "blendset_changes_per_week": 1.8311787072243346,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 78.05993887900058
+    },
+    "_n_steps": 3945
+  },
+  "MT_269": {
+    "best_static_single": {
+      "MAE": 119.29386051567651,
+      "RMSE": 165.9355339720781,
+      "CV_RMSE": 3.7245581760221134,
+      "MAPE": 2.7460901612931075,
+      "DirAcc": 84.45121951219512,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 132.8154872166483,
+      "RMSE": 178.8650673939284,
+      "CV_RMSE": 4.01477208178269,
+      "MAPE": 3.0835014673906906,
+      "DirAcc": 80.66565040650406,
+      "Regret": 53342.817335333675
+    },
+    "adaptive_deterministic": {
+      "MAE": 117.93313353832717,
+      "RMSE": 162.21995792897386,
+      "CV_RMSE": 3.64115904625944,
+      "MAPE": 2.7368058195769067,
+      "DirAcc": 83.96849593495935,
+      "Regret": -5368.067925643176,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 13,
+        "blendset_changes": 90,
+        "arm_switches": 0,
+        "mean_blend_size": 2.867934093789607,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 88.93534137902861,
+        "ms_per_step": 22.543812770349458,
+        "ms_per_step_by_phase": {
+          "predict": 1.5033767472768298,
+          "update": 2.8268623698323654,
+          "retrain_drift": 0.00033307426762327444,
+          "retrain_scheduled": 18.184629760463558,
+          "control": 0.028610818509082696
+        },
+        "control_share": 0.0012691206585388611,
+        "model_sec": {
+          "seasonal_naive": 0.009297400935793121,
+          "holt_winters": 0.02554512197184522,
+          "sarima": 83.02271924600427,
+          "lightgbm": 4.657228221985861,
+          "online_linear": 1.0395534470017083
+        },
+        "leader_switches_per_week": 0.5536121673003802,
+        "blendset_changes_per_week": 3.832699619771863,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 96.21900858400022
+    },
+    "_n_steps": 3945
+  },
+  "MT_163": {
+    "best_static_single": {
+      "MAE": 70.48438977889187,
+      "RMSE": 100.3349974925949,
+      "CV_RMSE": 4.607081099510985,
+      "MAPE": 3.361753774252924,
+      "DirAcc": 85.94663278271919,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 81.79980199717137,
+      "RMSE": 114.96807605576684,
+      "CV_RMSE": 5.278988024918786,
+      "MAPE": 3.8896440718428438,
+      "DirAcc": 83.88818297331639,
+      "Regret": 44639.301201112685
+    },
+    "adaptive_deterministic": {
+      "MAE": 71.28560003034394,
+      "RMSE": 101.23419655386333,
+      "CV_RMSE": 4.648369614021324,
+      "MAPE": 3.4065039511774176,
+      "DirAcc": 85.26048284625159,
+      "Regret": 3160.7744419784285,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 16,
+        "blendset_changes": 66,
+        "arm_switches": 0,
+        "mean_blend_size": 2.827376425855513,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 82.89799722001317,
+        "ms_per_step": 21.013434022817027,
+        "ms_per_step_by_phase": {
+          "predict": 1.5533527721257703,
+          "update": 2.9061779013944227,
+          "retrain_drift": 0.00039054347278611644,
+          "retrain_scheduled": 16.523837387322658,
+          "control": 0.02967541850138711
+        },
+        "control_share": 0.0014122117531653628,
+        "model_sec": {
+          "seasonal_naive": 0.009677733984972292,
+          "holt_winters": 0.02746146799017879,
+          "sarima": 76.96189347499057,
+          "lightgbm": 4.643280590011273,
+          "online_linear": 1.0696110249737103
+        },
+        "leader_switches_per_week": 0.6813688212927757,
+        "blendset_changes_per_week": 2.8106463878326995,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 88.24347663299977
+    },
+    "_n_steps": 3945
+  },
+  "MT_024": {
+    "best_static_single": {
+      "MAE": 5.814875065963521,
+      "RMSE": 7.970874353848016,
+      "CV_RMSE": 9.963498232250778,
+      "MAPE": 7.487066111999546,
+      "DirAcc": 79.92614085993142,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 5.9688866515583765,
+      "RMSE": 8.181523845634297,
+      "CV_RMSE": 10.226807594042928,
+      "MAPE": 7.614292488954723,
+      "DirAcc": 78.71274070166183,
+      "Regret": 607.5757051717083
+    },
+    "adaptive_deterministic": {
+      "MAE": 5.654549261390665,
+      "RMSE": 7.772039552508657,
+      "CV_RMSE": 9.714957093134934,
+      "MAPE": 7.243292444724005,
+      "DirAcc": 80.34819308889475,
+      "Regret": -632.4852990399158,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 67,
+        "blendset_changes": 44,
+        "arm_switches": 0,
+        "mean_blend_size": 2.9951837769328264,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 70.63580258098136,
+        "ms_per_step": 17.905146408360295,
+        "ms_per_step_by_phase": {
+          "predict": 1.5392329563955427,
+          "update": 2.8826417257244077,
+          "retrain_drift": 0.00036674601481654956,
+          "retrain_scheduled": 13.45295134903916,
+          "control": 0.02995363118636619
+        },
+        "control_share": 0.0016729062417708128,
+        "model_sec": {
+          "seasonal_naive": 0.009462070987865445,
+          "holt_winters": 0.02707976498913922,
+          "sarima": 64.94272262199775,
+          "lightgbm": 4.40485382497809,
+          "online_linear": 1.0632173200037869
+        },
+        "leader_switches_per_week": 2.853231939163498,
+        "blendset_changes_per_week": 1.873764258555133,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 75.96123790000001
+    },
+    "_n_steps": 3945
+  },
+  "MT_135": {
+    "best_static_single": {
+      "MAE": 35.323285768966706,
+      "RMSE": 60.06007278795052,
+      "CV_RMSE": 15.977236642543712,
+      "MAPE": 11.322559521580217,
+      "DirAcc": 79.55475946775844,
+      "Regret": 0.0,
+      "which": "lightgbm"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 41.21856283588848,
+      "RMSE": 63.20238142055213,
+      "CV_RMSE": 16.813156519035374,
+      "MAPE": 15.244955559352347,
+      "DirAcc": 77.27737973387923,
+      "Regret": 23256.86802900638
+    },
+    "adaptive_deterministic": {
+      "MAE": 36.962019912863276,
+      "RMSE": 61.35576415939324,
+      "CV_RMSE": 16.32191767099221,
+      "MAPE": 12.07584718657896,
+      "DirAcc": 80.04094165813716,
+      "Regret": 6464.806197671976,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 3,
+        "blendset_changes": 80,
+        "arm_switches": 0,
+        "mean_blend_size": 2.8747782002534854,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 67.43242783697406,
+        "ms_per_step": 17.093137601260853,
+        "ms_per_step_by_phase": {
+          "predict": 1.5417093751423443,
+          "update": 2.9037331738916006,
+          "retrain_drift": 0.0004133300335040695,
+          "retrain_scheduled": 12.618098957418404,
+          "control": 0.029182764774996445
+        },
+        "control_share": 0.001707279579428637,
+        "model_sec": {
+          "seasonal_naive": 0.00999869399038289,
+          "holt_winters": 0.026714660983088834,
+          "sarima": 61.480109343980985,
+          "lightgbm": 4.667742295994685,
+          "online_linear": 1.0655223950334403
+        },
+        "leader_switches_per_week": 0.12775665399239544,
+        "blendset_changes_per_week": 3.406844106463878,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 73.04229268400013
+    },
+    "_n_steps": 3945
+  },
+  "MT_105": {
+    "best_static_single": {
+      "MAE": 15.855095627838232,
+      "RMSE": 22.79079714185643,
+      "CV_RMSE": 5.3053050708068925,
+      "MAPE": 3.7107634349761964,
+      "DirAcc": 64.14996094766988,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 18.729209656600773,
+      "RMSE": 27.60383999063316,
+      "CV_RMSE": 6.425698555628465,
+      "MAPE": 4.304645927256706,
+      "DirAcc": 63.52512366571206,
+      "Regret": 11338.379843468225
+    },
+    "adaptive_deterministic": {
+      "MAE": 15.13520553731,
+      "RMSE": 21.90480420640313,
+      "CV_RMSE": 5.099061174031258,
+      "MAPE": 3.5342737288371584,
+      "DirAcc": 65.52980994532673,
+      "Regret": -2839.9664071338702,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 88,
+        "blendset_changes": 21,
+        "arm_switches": 0,
+        "mean_blend_size": 2.8980988593155894,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 73.24241388803603,
+        "ms_per_step": 18.56588438226515,
+        "ms_per_step_by_phase": {
+          "predict": 1.5495259485481512,
+          "update": 2.8932210980900037,
+          "retrain_drift": 0.0003697067248495266,
+          "retrain_scheduled": 14.093838977948309,
+          "control": 0.028928650953839473
+        },
+        "control_share": 0.0015581617529339584,
+        "model_sec": {
+          "seasonal_naive": 0.009509173974038276,
+          "holt_winters": 0.026446672990459774,
+          "sarima": 67.62885193097918,
+          "lightgbm": 4.331051271015895,
+          "online_linear": 1.062460749980346
+        },
+        "leader_switches_per_week": 3.747528517110266,
+        "blendset_changes_per_week": 0.8942965779467681,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 79.50220134899973
+    },
+    "_n_steps": 3945
+  },
+  "MT_121": {
+    "best_static_single": {
+      "MAE": 15.736663294889047,
+      "RMSE": 36.738660103755315,
+      "CV_RMSE": 2.7333817539951895,
+      "MAPE": 1.2082802619504478,
+      "DirAcc": 72.15716887848035,
+      "Regret": 0.0,
+      "which": "lightgbm"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 18.570388522520247,
+      "RMSE": 39.12194394985627,
+      "CV_RMSE": 2.9106997226180558,
+      "MAPE": 1.4178156164608504,
+      "DirAcc": 69.11267239136092,
+      "Regret": 11179.046023005081
+    },
+    "adaptive_deterministic": {
+      "MAE": 14.984153341751144,
+      "RMSE": 37.562843708334995,
+      "CV_RMSE": 2.7947015849399715,
+      "MAPE": 1.1545964269587357,
+      "DirAcc": 71.87093416601613,
+      "Regret": -2968.651765129027,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 51,
+        "blendset_changes": 60,
+        "arm_switches": 0,
+        "mean_blend_size": 2.6856780735107733,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 59.58237775496673,
+        "ms_per_step": 15.103264323185481,
+        "ms_per_step_by_phase": {
+          "predict": 1.1438470679205897,
+          "update": 2.1596045736346294,
+          "retrain_drift": 0.0003073936574162086,
+          "retrain_scheduled": 11.777706918379243,
+          "control": 0.021798369593605007
+        },
+        "control_share": 0.0014432886247075516,
+        "model_sec": {
+          "seasonal_naive": 0.007216570005766698,
+          "holt_winters": 0.019392033987969626,
+          "sarima": 55.361791392005216,
+          "lightgbm": 3.2579815809867796,
+          "online_linear": 0.799019204004253
+        },
+        "leader_switches_per_week": 2.171863117870722,
+        "blendset_changes_per_week": 2.555133079847909,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 62.25423557199974
+    },
+    "_n_steps": 3945
+  },
+  "MT_118": {
+    "best_static_single": {
+      "MAE": 4.811016556681833,
+      "RMSE": 8.284978223863767,
+      "CV_RMSE": 2.6864744426076927,
+      "MAPE": 1.5559334337936646,
+      "DirAcc": 71.94459532862575,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 4.962808588846165,
+      "RMSE": 8.170813761629619,
+      "CV_RMSE": 2.6494556476562847,
+      "MAPE": 1.6007347724247347,
+      "DirAcc": 71.42857142857143,
+      "Regret": 598.8195668882872
+    },
+    "adaptive_deterministic": {
+      "MAE": 4.5567276746534935,
+      "RMSE": 7.887523245782455,
+      "CV_RMSE": 2.557596295695112,
+      "MAPE": 1.4692391748029774,
+      "DirAcc": 73.38403041825094,
+      "Regret": -1003.1696396017978,
+      "n_drift": 0,
+      "ops": {
+        "leader_switches": 73,
+        "blendset_changes": 23,
+        "arm_switches": 0,
+        "mean_blend_size": 2.9657794676806084,
+        "drift_events": 0,
+        "refits_drift": 0,
+        "refits_scheduled": 69,
+        "refits_total": 69,
+        "refits_by_model": {
+          "seasonal_naive": 0,
+          "holt_winters": 23,
+          "sarima": 23,
+          "lightgbm": 23,
+          "online_linear": 0
+        },
+        "total_sec": 52.20425376798539,
+        "ms_per_step": 13.233017431681974,
+        "ms_per_step_by_phase": {
+          "predict": 1.1632510621055716,
+          "update": 2.1540187716090617,
+          "retrain_drift": 0.00027159265448272596,
+          "retrain_scheduled": 9.893003097837505,
+          "control": 0.022472907475355398
+        },
+        "control_share": 0.0016982451350477056,
+        "model_sec": {
+          "seasonal_naive": 0.007387634016595257,
+          "holt_winters": 0.019732651974663895,
+          "sarima": 48.190191507022064,
+          "lightgbm": 3.033175388987729,
+          "online_linear": 0.8129905060113742
+        },
+        "leader_switches_per_week": 3.108745247148289,
+        "blendset_changes_per_week": 0.979467680608365,
+        "arm_switches_per_week": 0.0,
+        "drift_events_per_week": 0.0,
+        "refits_total_per_week": 2.938403041825095
+      }
+    },
+    "_timing_sec": {
+      "deterministic": 54.162385971999356
+    },
+    "_n_steps": 3945
+  },
+  "_config": {
+    "block": "val",
+    "gamma": 0.995,
+    "ucb_c": 0.2,
+    "drift_kw": {
+      "use_adwin": false,
+      "use_ph": false
+    }
+  }
+}

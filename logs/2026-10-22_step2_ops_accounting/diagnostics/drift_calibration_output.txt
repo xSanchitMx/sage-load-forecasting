@@ -1,0 +1,8 @@
+normalised residual: mean 1.03  median 0.72  p95 2.83  max 280.8
+ADWIN delta 0.002          : (0, None, None)
+PageHinkley threshold    3 : (54, 168, 1.0)   (alarms, median gap h, share of gaps == 168)
+PageHinkley threshold   10 : (53, 168, 0.79)   (alarms, median gap h, share of gaps == 168)
+PageHinkley threshold   25 : (31, 253, 0.2)   (alarms, median gap h, share of gaps == 168)
+PageHinkley threshold   50 : (13, 595, 0.0)   (alarms, median gap h, share of gaps == 168)
+PageHinkley threshold  100 : (3, 2470, 0.0)   (alarms, median gap h, share of gaps == 168)
+PageHinkley threshold  200 : (2, 4857, 0.0)   (alarms, median gap h, share of gaps == 168)

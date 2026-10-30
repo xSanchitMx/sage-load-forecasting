@@ -1,0 +1,11 @@
+[MT_132] running test block ...
+[MT_004] running test block ...
+[MT_132] best single = sarima         MAE 236.7 | equal-ens MAE 346.4 | 4.5s for 400 steps
+[MT_004] best single = sarima         MAE 36.6 | equal-ens MAE 43.1 | 5.4s for 400 steps
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE   136.66  RMSE   201.87  MAPE   5.47  DirAcc  78.4
+  val_best_single          MAE   136.66  RMSE   201.87  MAPE   5.47  DirAcc  78.4
+  equal_weight_ensemble    MAE   194.77  RMSE   280.85  MAPE   7.50  DirAcc  73.5
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/smoke2b.json

@@ -1,0 +1,7 @@
+MAE (1st half, 2nd half); ideal ~ (0.8, 0.8), single-model errors are ~8
+expert A       (np.float64(0.8), np.float64(7.86))
+expert B       (np.float64(8.13), np.float64(0.78))
+ftl            (np.float64(0.8), np.float64(7.52))
+hedge eta 1    (np.float64(0.8), np.float64(7.52))
+fixed_share    (np.float64(0.8), np.float64(0.8))
+dwm beta 0.9   (np.float64(0.83), np.float64(1.11))

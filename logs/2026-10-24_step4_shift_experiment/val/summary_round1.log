@@ -1,0 +1,44 @@
+
+=== val, overall MAPE (mean over 8 clients) ===
+variant                   level       ramp  amplitude  temporary       none     mean
+blend_nodrift             4.697      4.613     19.974      4.915      4.501    7.740
+blend_drift               4.698      4.631     20.251      4.853      4.506    7.788
+blend_resp                4.819      4.733     23.239      5.090      4.649    8.506
+blend_resp_nofast         4.820      4.695     22.317      5.077      4.620    8.306
+melo_nodrift              4.500      4.465     18.365      4.613      4.337    7.256
+melo_drift                4.510      4.477     18.464      4.612      4.354    7.283
+melo_resp                 4.740      4.613     22.986      4.882      4.588    8.362
+melo_resp_cov             4.708      4.630     22.687      4.900      4.602    8.306
+
+=== val, overall CV-RMSE (mean over 8 clients) ===
+variant                   level       ramp  amplitude  temporary       none     mean
+blend_nodrift             6.408      6.370      7.694      7.138      6.198    6.762
+blend_drift               6.386      6.356      7.661      7.114      6.197    6.743
+blend_resp                6.445      6.450      7.776      7.196      6.336    6.841
+blend_resp_nofast         6.516      6.472      7.849      7.368      6.343    6.910
+melo_nodrift              6.264      6.249      7.534      6.989      6.163    6.640
+melo_drift                6.224      6.257      7.489      6.791      6.125    6.577
+melo_resp                 6.327      6.294      7.621      6.992      6.194    6.686
+melo_resp_cov             6.279      6.299      7.602      6.974      6.195    6.670
+
+=== val, MAPE over 168 h after events (mean over 8 clients) ===
+variant                   level       ramp  amplitude  temporary       none     mean
+blend_nodrift             6.714      4.950     10.716      6.522        nan    7.226
+blend_drift               6.524      4.957     10.320      6.271        nan    7.018
+blend_resp                6.475      5.024     11.187      6.404        nan    7.273
+blend_resp_nofast         6.582      5.020     10.658      6.634        nan    7.223
+melo_nodrift              6.087      4.941      9.554      5.939        nan    6.630
+melo_drift                5.971      4.988      9.732      5.950        nan    6.660
+melo_resp                 6.277      5.001     10.172      6.159        nan    6.902
+melo_resp_cov             6.142      5.014     10.368      6.118        nan    6.911
+
+=== val, MAPE over 672 h after events (mean over 8 clients) ===
+variant                   level       ramp  amplitude  temporary       none     mean
+blend_nodrift             4.940      4.579     10.637      5.634        nan    6.448
+blend_drift               4.872      4.559     10.553      5.411        nan    6.349
+blend_resp                4.917      4.592     10.269      5.788        nan    6.392
+blend_resp_nofast         4.951      4.609     10.143      5.757        nan    6.365
+melo_nodrift              4.710      4.445     10.765      5.097        nan    6.254
+melo_drift                4.628      4.475     10.626      5.018        nan    6.187
+melo_resp                 4.828      4.472     10.608      5.224        nan    6.283
+melo_resp_cov             4.747      4.487     10.335      5.246        nan    6.204

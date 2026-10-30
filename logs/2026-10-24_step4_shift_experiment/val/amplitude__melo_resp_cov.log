@@ -1,0 +1,33 @@
+[MT_132] running controller ...
+[MT_269] running controller ...
+[MT_163] running controller ...
+[MT_024] running controller ...
+[MT_024] det MAPE 9.38% CV-RMSE 11.63% | best-single sarima MAPE 9.81% | drift 2 | 100.9s
+[MT_135] running controller ...
+[MT_163] det MAPE 4.78% CV-RMSE 5.81% | best-single sarima MAPE 4.95% | drift 3 | 107.6s
+[MT_105] running controller ...
+[MT_132] det MAPE 3.60% CV-RMSE 5.92% | best-single sarima MAPE 3.75% | drift 5 | 108.1s
+[MT_121] running controller ...
+[MT_269] det MAPE 3.85% CV-RMSE 4.84% | best-single sarima MAPE 4.09% | drift 4 | 122.1s
+[MT_118] running controller ...
+[MT_135] det MAPE 152.40% CV-RMSE 20.42% | best-single lightgbm MAPE 157.39% | drift 7 | 77.6s
+[MT_105] det MAPE 4.31% CV-RMSE 6.16% | best-single online_linear MAPE 4.56% | drift 6 | 81.9s
+[MT_121] det MAPE 1.39% CV-RMSE 3.06% | best-single lightgbm MAPE 1.52% | drift 4 | 93.0s
+[MT_118] det MAPE 1.78% CV-RMSE 2.96% | best-single sarima MAPE 1.91% | drift 6 | 86.4s
+/mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/run_controller.py:225: RuntimeWarning: Mean of empty slice
+  g = lambda k: float(np.nanmean([x[k] for x in sh]))
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    73.99  RMSE   116.50  CV-RMSE   8.15%  MAPE  23.50%
+  equal_weight_ensemble    MAE    82.86  RMSE   124.07  CV-RMSE   8.38%  MAPE  23.17%
+  adaptive_deterministic   MAE    70.05  RMSE   110.89  CV-RMSE   7.60%  MAPE  22.69%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  3.27  blend-set chg 10.09  arm sw   0.00  drift 0.20  refits  4.28  |    23.2 ms/step, control  1.6%
+
+=== SHIFT RESPONSE (mean over clients; MAPE/ratio over the 168 h and 672 h after each event) ===
+  equal_weight_ensemble    detected 0/16  delay    nan h  false 0.00/wk  MAPE168  12.77%  MAPE672  12.00%  ratio168 1.63  recovery  122.8 h (not rec. 4)
+  adaptive_deterministic   detected 8/16  delay   46.1 h  false 0.16/wk  MAPE168  10.37%  MAPE672  10.33%  ratio168 1.40  recovery   58.4 h (not rec. 5)
+
+saved -> step4_val/amplitude__melo_resp_cov.json

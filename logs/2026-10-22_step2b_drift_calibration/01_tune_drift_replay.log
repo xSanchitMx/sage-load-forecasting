@@ -1,0 +1,50 @@
+original setting (ph thr 3, both, no clip, min 168):
+   {'cfg': {'ph_threshold': 3.0, 'ph_mode': 'both', 'clip': None, 'ph_min_instances': 168}, 'alarms_per_week': 1.064638783269962, 'adwin_share': 0.08, 'timer_share': 0.8401358695652174, 'lift': 1.2544845101540105}
+
+Page-Hinkley alone (one-sided):
+  clip  None thr   10 min  24 | alarms/wk 1.320  timer 0.07  lift 1.39
+  clip  None thr   10 min 168 | alarms/wk 0.681  timer 0.38  lift 1.35
+  clip  None thr   25 min  24 | alarms/wk 0.303  timer 0.01  lift 1.73
+  clip  None thr   25 min 168 | alarms/wk 0.271  timer 0.03  lift 1.65
+  clip  None thr   50 min  24 | alarms/wk 0.128  timer 0.00  lift 2.26
+  clip  None thr   50 min 168 | alarms/wk 0.128  timer 0.00  lift 2.26
+  clip  None thr  100 min  24 | alarms/wk 0.048  timer 0.00  lift 2.34
+  clip  None thr  100 min 168 | alarms/wk 0.048  timer 0.00  lift 2.34
+  clip  None thr  200 min  24 | alarms/wk 0.021  timer 0.00  lift 2.79
+  clip  None thr  200 min 168 | alarms/wk 0.021  timer 0.00  lift 2.79
+  clip   5.0 thr   10 min  24 | alarms/wk 1.240  timer 0.05  lift 1.43
+  clip   5.0 thr   10 min 168 | alarms/wk 0.724  timer 0.47  lift 1.33
+  clip   5.0 thr   25 min  24 | alarms/wk 0.240  timer 0.00  lift 1.86
+  clip   5.0 thr   25 min 168 | alarms/wk 0.234  timer 0.06  lift 1.86
+  clip   5.0 thr   50 min  24 | alarms/wk 0.090  timer 0.00  lift 1.68
+  clip   5.0 thr   50 min 168 | alarms/wk 0.090  timer 0.00  lift 1.68
+  clip   5.0 thr  100 min  24 | alarms/wk 0.032  timer 0.00  lift 1.31
+  clip   5.0 thr  100 min 168 | alarms/wk 0.032  timer 0.00  lift 1.31
+  clip   5.0 thr  200 min  24 | alarms/wk 0.016  timer 0.00  lift 1.41
+  clip   5.0 thr  200 min 168 | alarms/wk 0.016  timer 0.00  lift 1.41
+  clip  10.0 thr   10 min  24 | alarms/wk 1.320  timer 0.07  lift 1.41
+  clip  10.0 thr   10 min 168 | alarms/wk 0.708  timer 0.41  lift 1.33
+  clip  10.0 thr   25 min  24 | alarms/wk 0.261  timer 0.00  lift 1.76
+  clip  10.0 thr   25 min 168 | alarms/wk 0.256  timer 0.03  lift 1.75
+  clip  10.0 thr   50 min  24 | alarms/wk 0.101  timer 0.00  lift 1.86
+  clip  10.0 thr   50 min 168 | alarms/wk 0.101  timer 0.00  lift 1.86
+  clip  10.0 thr  100 min  24 | alarms/wk 0.037  timer 0.00  lift 1.68
+  clip  10.0 thr  100 min 168 | alarms/wk 0.037  timer 0.00  lift 1.68
+  clip  10.0 thr  200 min  24 | alarms/wk 0.016  timer 0.00  lift 1.32
+  clip  10.0 thr  200 min 168 | alarms/wk 0.016  timer 0.00  lift 1.32
+
+ADWIN alone:
+  clip  None delta 0.002  | alarms/wk 0.085  lift 2.85
+  clip  None delta 0.01   | alarms/wk 0.133  lift 2.33
+  clip  None delta 0.05   | alarms/wk 0.208  lift 2.15
+  clip  None delta 0.2    | alarms/wk 0.314  lift 1.69
+  clip   5.0 delta 0.002  | alarms/wk 0.080  lift 1.80
+  clip   5.0 delta 0.01   | alarms/wk 0.128  lift 1.55
+  clip   5.0 delta 0.05   | alarms/wk 0.170  lift 1.63
+  clip   5.0 delta 0.2    | alarms/wk 0.303  lift 1.42
+  clip  10.0 delta 0.002  | alarms/wk 0.090  lift 2.17
+  clip  10.0 delta 0.01   | alarms/wk 0.133  lift 2.35
+  clip  10.0 delta 0.05   | alarms/wk 0.192  lift 2.13
+  clip  10.0 delta 0.2    | alarms/wk 0.319  lift 1.86
+
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/drift_tuning.json

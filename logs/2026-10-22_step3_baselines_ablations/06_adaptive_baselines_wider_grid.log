@@ -1,0 +1,54 @@
+=== tuning on validation (mean MAPE over clients) ===
+  ftl          {}                               val MAPE 4.428
+  -> ftl: {}  (val MAPE 4.428)
+
+  hedge        {"eta": 0.0003}                  val MAPE 5.042
+  hedge        {"eta": 0.001}                   val MAPE 4.739
+  hedge        {"eta": 0.003}                   val MAPE 4.457
+  hedge        {"eta": 0.01}                    val MAPE 4.339
+  hedge        {"eta": 0.03}                    val MAPE 4.350
+  hedge        {"eta": 0.1}                     val MAPE 4.386
+  hedge        {"eta": 0.3}                     val MAPE 4.408
+  hedge        {"eta": 1.0}                     val MAPE 4.422
+  hedge        {"eta": 3.0}                     val MAPE 4.426
+  -> hedge: {"eta": 0.01}  (val MAPE 4.339)
+
+  fixed_share  {"eta": 0.03, "alpha": 0.001}    val MAPE 4.311
+  fixed_share  {"eta": 0.03, "alpha": 0.01}     val MAPE 4.598
+  fixed_share  {"eta": 0.03, "alpha": 0.05}     val MAPE 4.932
+  fixed_share  {"eta": 0.03, "alpha": 0.1}      val MAPE 5.041
+  fixed_share  {"eta": 0.1, "alpha": 0.001}     val MAPE 4.336
+  fixed_share  {"eta": 0.1, "alpha": 0.01}      val MAPE 4.337
+  fixed_share  {"eta": 0.1, "alpha": 0.05}      val MAPE 4.620
+  fixed_share  {"eta": 0.1, "alpha": 0.1}       val MAPE 4.767
+  fixed_share  {"eta": 0.3, "alpha": 0.001}     val MAPE 4.349
+  fixed_share  {"eta": 0.3, "alpha": 0.01}      val MAPE 4.299
+  fixed_share  {"eta": 0.3, "alpha": 0.05}      val MAPE 4.379
+  fixed_share  {"eta": 0.3, "alpha": 0.1}       val MAPE 4.497
+  fixed_share  {"eta": 1.0, "alpha": 0.001}     val MAPE 4.368
+  fixed_share  {"eta": 1.0, "alpha": 0.01}      val MAPE 4.343
+  fixed_share  {"eta": 1.0, "alpha": 0.05}      val MAPE 4.316
+  fixed_share  {"eta": 1.0, "alpha": 0.1}       val MAPE 4.349
+  fixed_share  {"eta": 3.0, "alpha": 0.001}     val MAPE 4.433
+  fixed_share  {"eta": 3.0, "alpha": 0.01}      val MAPE 4.415
+  fixed_share  {"eta": 3.0, "alpha": 0.05}      val MAPE 4.380
+  fixed_share  {"eta": 3.0, "alpha": 0.1}       val MAPE 4.371
+  -> fixed_share: {"eta": 0.3, "alpha": 0.01}  (val MAPE 4.299)
+
+  dwm          {"beta": 0.1}                    val MAPE 4.430
+  dwm          {"beta": 0.2}                    val MAPE 4.414
+  dwm          {"beta": 0.3}                    val MAPE 4.387
+  dwm          {"beta": 0.5}                    val MAPE 4.341
+  dwm          {"beta": 0.7}                    val MAPE 4.342
+  dwm          {"beta": 0.9}                    val MAPE 4.365
+  dwm          {"beta": 0.95}                   val MAPE 4.370
+  dwm          {"beta": 0.99}                   val MAPE 4.388
+  -> dwm: {"beta": 0.5}  (val MAPE 4.341)
+
+=== test: test_streams_nodrift (mean over 8 clients) ===
+  ftl          MAE   72.84  RMSE  111.82  CV-RMSE  7.36%  MAPE  5.20%
+  hedge        MAE   70.98  RMSE  108.66  CV-RMSE  7.11%  MAPE  5.13%
+  fixed_share  MAE   66.84  RMSE  102.56  CV-RMSE  6.58%  MAPE  4.82%
+  dwm          MAE   68.69  RMSE  106.53  CV-RMSE  6.96%  MAPE  4.98%
+
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/adaptive_baselines_results.json

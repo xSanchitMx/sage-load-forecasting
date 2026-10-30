@@ -1,0 +1,36 @@
+[MT_132] running controller ...
+[MT_132] det MAPE 3.54% CV-RMSE 4.45% | best-single lightgbm MAPE 3.58% | drift 0 | 94.0s
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE   203.39  RMSE   262.16  CV-RMSE   4.46%  MAPE   3.58%
+  equal_weight_ensemble    MAE   256.06  RMSE   322.91  CV-RMSE   5.49%  MAPE   4.62%
+  adaptive_deterministic   MAE   201.81  RMSE   261.43  CV-RMSE   4.45%  MAPE   3.54%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  0.00  blend-set chg  2.80  arm sw   0.00  drift 0.00  refits 504.00  |  1500.0 ms/step, control  0.0%
+
+saved -> /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/smoke_always.json
+	Command being timed: ".venv/bin/python run_controller.py --clients 1 --max-steps 60 --workers 1 --schedule 1 --no-drift --no-bandit --diag-client none --out /tmp/claude-1000/-mnt-c-Users-mukhe-Desktop-VIT-Chennai-Year-4-Predictive-Analytics-Project/7707098d-0620-4b72-b00f-4b44a9888b83/scratchpad/smoke_always.json"
+	User time (seconds): 1.61
+	System time (seconds): 0.98
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:49.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 231776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1015
+	Minor (reclaiming a frame) page faults: 52223
+	Voluntary context switches: 52954
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 87080
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

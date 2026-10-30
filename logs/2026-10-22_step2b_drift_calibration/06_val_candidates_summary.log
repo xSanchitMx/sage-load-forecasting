@@ -1,0 +1,8 @@
+<stdin>:12: RuntimeWarning: All-NaN slice encountered
+<stdin>:13: RuntimeWarning: Mean of empty slice
+setting                    MAPE  CV-RMSE     MAE  drift/wk refits/wk  recMed  nonRec  per-client MAPE
+original (thr 3, both)    4.498    6.199   56.11      1.06       nan     6.5    0.01  4.39 2.74 3.41 7.24 12.04 3.53 1.17 1.47
+frequent                  4.510    6.180   55.88      1.48      5.54    34.5    0.05  4.33 2.71 3.39 7.26 12.21 3.54 1.18 1.46
+medium                    4.510    6.193   56.18      0.44      3.69    56.0    0.06  4.39 2.76 3.39 7.24 12.11 3.53 1.18 1.48
+sparse                    4.506    6.197   55.99      0.20      3.26    33.8    0.10  4.36 2.74 3.39 7.23 12.18 3.50 1.16 1.47
+no drift                  4.501    6.198   56.08      0.00      2.94     nan     nan  4.38 2.74 3.41 7.24 12.08 3.53 1.15 1.47

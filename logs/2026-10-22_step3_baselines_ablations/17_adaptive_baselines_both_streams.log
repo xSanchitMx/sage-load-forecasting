@@ -1,0 +1,54 @@
+=== tuning on validation (mean MAPE over clients) ===
+  ftl          {}                               val MAPE 4.428
+  -> ftl: {}  (val MAPE 4.428)
+
+  hedge        {"eta": 0.0003}                  val MAPE 5.042
+  hedge        {"eta": 0.001}                   val MAPE 4.739
+  hedge        {"eta": 0.003}                   val MAPE 4.457
+  hedge        {"eta": 0.01}                    val MAPE 4.339
+  hedge        {"eta": 0.03}                    val MAPE 4.350
+  hedge        {"eta": 0.1}                     val MAPE 4.386
+  hedge        {"eta": 0.3}                     val MAPE 4.408
+  hedge        {"eta": 1.0}                     val MAPE 4.422
+  hedge        {"eta": 3.0}                     val MAPE 4.426
+  -> hedge: {"eta": 0.01}  (val MAPE 4.339)
+
+  dwm          {"beta": 0.1}                    val MAPE 4.430
+  dwm          {"beta": 0.2}                    val MAPE 4.414
+  dwm          {"beta": 0.3}                    val MAPE 4.387
+  dwm          {"beta": 0.5}                    val MAPE 4.341
+  dwm          {"beta": 0.7}                    val MAPE 4.342
+  dwm          {"beta": 0.9}                    val MAPE 4.365
+  dwm          {"beta": 0.95}                   val MAPE 4.370
+  dwm          {"beta": 0.99}                   val MAPE 4.388
+  -> dwm: {"beta": 0.5}  (val MAPE 4.341)
+
+  mlpol        {}                               val MAPE 4.416
+  -> mlpol: {}  (val MAPE 4.416)
+
+  melo         {"eps0": 1e-13}                  val MAPE 4.342
+  melo         {"eps0": 1e-11}                  val MAPE 4.342
+  melo         {"eps0": 1e-09}                  val MAPE 4.342
+  melo         {"eps0": 1e-08}                  val MAPE 4.342
+  melo         {"eps0": 1e-07}                  val MAPE 4.342
+  melo         {"eps0": 1e-06}                  val MAPE 4.342
+  melo         {"eps0": 1e-05}                  val MAPE 4.342
+  melo         {"eps0": 0.0001}                 val MAPE 4.342
+  melo         {"eps0": 0.001}                  val MAPE 4.342
+  melo         {"eps0": 0.01}                   val MAPE 4.337
+  -> melo: {"eps0": 0.01}  (val MAPE 4.337)
+
+=== test: test_streams_nodrift (mean over 8 clients) ===
+  ftl          MAE   72.84  RMSE  111.82  CV-RMSE  7.36%  MAPE  5.20%
+  hedge        MAE   70.98  RMSE  108.66  CV-RMSE  7.11%  MAPE  5.13%
+  dwm          MAE   68.69  RMSE  106.53  CV-RMSE  6.96%  MAPE  4.98%
+  mlpol        MAE   68.17  RMSE  103.22  CV-RMSE  6.55%  MAPE  5.02%
+  melo         MAE   66.50  RMSE  101.37  CV-RMSE  6.47%  MAPE  4.82%
+=== test: test_streams_always_retrain (mean over 8 clients) ===
+  ftl          MAE   69.46  RMSE  107.01  CV-RMSE  6.64%  MAPE  4.85%
+  hedge        MAE   68.88  RMSE  105.73  CV-RMSE  6.55%  MAPE  4.84%
+  dwm          MAE   67.32  RMSE  104.58  CV-RMSE  6.54%  MAPE  4.79%
+  mlpol        MAE   66.21  RMSE  100.87  CV-RMSE  6.31%  MAPE  4.77%
+  melo         MAE   65.54  RMSE  100.19  CV-RMSE  6.26%  MAPE  4.68%
+
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/adaptive_baselines_results.json

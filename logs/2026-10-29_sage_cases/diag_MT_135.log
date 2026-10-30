@@ -1,0 +1,14 @@
+[MT_135] running controller ...
+    diagnostics -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/step6_cases/diag_MT_135_none.json
+[MT_135] det MAPE 11.53% CV-RMSE 15.39% | best-single lightgbm MAPE 13.26% | drift 11 | 165.1s
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    40.38  RMSE    70.18  CV-RMSE  17.73%  MAPE  13.26%
+  equal_weight_ensemble    MAE    48.24  RMSE    72.11  CV-RMSE  18.22%  MAPE  18.12%
+  adaptive_deterministic   MAE    37.11  RMSE    60.90  CV-RMSE  15.39%  MAPE  11.53%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  2.50  blend-set chg 11.19  arm sw   0.00  drift 0.20  refits  4.32  |    17.1 ms/step, control  2.0%
+
+saved -> step6_cases/run_MT_135_none.json

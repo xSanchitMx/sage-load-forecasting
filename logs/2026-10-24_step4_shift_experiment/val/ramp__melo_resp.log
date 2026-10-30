@@ -1,0 +1,33 @@
+[MT_132] running controller ...
+[MT_269] running controller ...
+[MT_163] running controller ...
+[MT_024] running controller ...
+[MT_024] det MAPE 7.12% CV-RMSE 9.49% | best-single sarima MAPE 7.54% | drift 1 | 97.2s
+[MT_135] running controller ...
+[MT_132] det MAPE 4.40% CV-RMSE 5.23% | best-single sarima MAPE 4.12% | drift 5 | 105.1s
+[MT_105] running controller ...
+[MT_163] det MAPE 3.28% CV-RMSE 4.51% | best-single sarima MAPE 3.41% | drift 2 | 118.6s
+[MT_121] running controller ...
+[MT_269] det MAPE 2.68% CV-RMSE 3.71% | best-single sarima MAPE 2.72% | drift 3 | 127.7s
+[MT_118] running controller ...
+[MT_135] det MAPE 12.94% CV-RMSE 16.51% | best-single lightgbm MAPE 13.74% | drift 6 | 87.3s
+[MT_105] det MAPE 3.60% CV-RMSE 5.14% | best-single sarima MAPE 3.78% | drift 3 | 90.2s
+[MT_121] det MAPE 1.35% CV-RMSE 2.99% | best-single sarima MAPE 1.50% | drift 6 | 88.7s
+[MT_118] det MAPE 1.54% CV-RMSE 2.77% | best-single sarima MAPE 1.57% | drift 4 | 84.3s
+/mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/run_controller.py:225: RuntimeWarning: Mean of empty slice
+  g = lambda k: float(np.nanmean([x[k] for x in sh]))
+
+=== AGGREGATE (mean over clients) ===
+  best_static_single       MAE    66.05  RMSE   110.30  CV-RMSE   6.79%  MAPE   4.80%
+  equal_weight_ensemble    MAE    76.45  RMSE   116.94  CV-RMSE   6.94%  MAPE   5.52%
+  adaptive_deterministic   MAE    64.12  RMSE   104.42  CV-RMSE   6.29%  MAPE   4.61%
+  adaptive_bandit          MAE      nan  RMSE      nan  CV-RMSE    nan%  MAPE    nan%
+
+=== OPERATIONS (mean over clients, per week of test data) ===
+  adaptive_deterministic   leader sw  3.16  blend-set chg  8.54  arm sw   0.00  drift 0.16  refits  3.99  |    23.8 ms/step, control  1.5%
+
+=== SHIFT RESPONSE (mean over clients; MAPE/ratio over the 168 h and 672 h after each event) ===
+  equal_weight_ensemble    detected 0/16  delay    nan h  false 0.00/wk  MAPE168   6.02%  MAPE672   5.67%  ratio168 1.27  recovery   11.1 h (not rec. 0)
+  adaptive_deterministic   detected 3/16  delay  196.0 h  false 0.17/wk  MAPE168   5.00%  MAPE672   4.47%  ratio168 1.25  recovery   12.8 h (not rec. 0)
+
+saved -> step4_val/ramp__melo_resp.json

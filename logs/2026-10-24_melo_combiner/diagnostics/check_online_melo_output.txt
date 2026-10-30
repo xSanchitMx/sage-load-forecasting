@@ -1,0 +1,8 @@
+MT_132: max|diff| 8.185e-12  rel 1.936e-15  MAPE batch 5.1243 online 5.1243
+MT_269: max|diff| 2.092e-11  rel 4.407e-15  MAPE batch 3.1129 online 3.1129
+MT_163: max|diff| 1.296e-11  rel 4.014e-14  MAPE batch 3.0924 online 3.0924
+MT_024: max|diff| 5.400e-13  rel 5.667e-15  MAPE batch 7.0643 online 7.0643
+MT_135: max|diff| 7.390e-13  rel 2.574e-15  MAPE batch 12.4821 online 12.4821
+MT_105: max|diff| 1.137e-12  rel 1.774e-15  MAPE batch 5.3024 online 5.3024
+MT_121: max|diff| 3.865e-12  rel 4.811e-15  MAPE batch 1.0231 online 1.0231
+MT_118: max|diff| 6.096e-12  rel 4.858e-14  MAPE batch 1.3269 online 1.3269

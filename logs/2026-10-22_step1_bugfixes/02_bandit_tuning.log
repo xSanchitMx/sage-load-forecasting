@@ -1,0 +1,27 @@
+reference (mean val MAPE over clients): {'blend_only': np.float64(4.498), 'best_only': np.float64(4.437), 'oracle_per_step': np.float64(3.589)}
+  gamma 0.95   c 0.02  MAPE 4.491  force_best 0.54
+  gamma 0.95   c 0.05  MAPE 4.445  force_best 0.50
+  gamma 0.95   c 0.1   MAPE 4.422  force_best 0.53
+  gamma 0.95   c 0.2   MAPE 4.464  force_best 0.51
+  gamma 0.95   c 0.5   MAPE 4.409  force_best 0.50
+  gamma 0.95   c 1.0   MAPE 4.410  force_best 0.48
+  gamma 0.99   c 0.02  MAPE 4.431  force_best 0.73
+  gamma 0.99   c 0.05  MAPE 4.472  force_best 0.58
+  gamma 0.99   c 0.1   MAPE 4.459  force_best 0.42
+  gamma 0.99   c 0.2   MAPE 4.491  force_best 0.50
+  gamma 0.99   c 0.5   MAPE 4.508  force_best 0.47
+  gamma 0.99   c 1.0   MAPE 4.424  force_best 0.54
+  gamma 0.995  c 0.02  MAPE 4.439  force_best 0.85
+  gamma 0.995  c 0.05  MAPE 4.467  force_best 0.83
+  gamma 0.995  c 0.1   MAPE 4.436  force_best 0.85
+  gamma 0.995  c 0.2   MAPE 4.406  force_best 0.59
+  gamma 0.995  c 0.5   MAPE 4.425  force_best 0.62
+  gamma 0.995  c 1.0   MAPE 4.420  force_best 0.49
+  gamma 0.999  c 0.02  MAPE 4.436  force_best 0.87
+  gamma 0.999  c 0.05  MAPE 4.436  force_best 0.87
+  gamma 0.999  c 0.1   MAPE 4.436  force_best 0.87
+  gamma 0.999  c 0.2   MAPE 4.436  force_best 0.87
+  gamma 0.999  c 0.5   MAPE 4.437  force_best 0.87
+  gamma 0.999  c 1.0   MAPE 4.431  force_best 0.84
+best: {'gamma': 0.995, 'c': 0.2, 'MAPE': 4.405618066115009, 'force_best_share': 0.5910963244613434}
+saved -> /mnt/c/Users/mukhe/Desktop/VIT Chennai/Year 4/Predictive Analytics/Project/code/bandit_tuning.json

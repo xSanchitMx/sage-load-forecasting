@@ -1,0 +1,26 @@
+
+##### diag_streams_level.json
+relative MAE (% of mean load), mean over clients: week -1 | wk 0 | wk 1 | wk 2 | wk 3 after event
+  served           3.82   6.09   4.44   4.44   5.44
+  seasonal_naive   6.47  22.34   5.76   7.46   7.04
+  holt_winters     7.13   9.08   6.84   7.41   7.75
+  sarima           4.87   6.13   5.15   5.32   6.71
+  lightgbm         3.95  13.77   5.84   5.06   5.21
+  online_linear    5.05   6.12   4.98   4.98   5.91
+detector alarms in [E, E+336) per client (sparse=default, medium, frequent):
+  sparse    delay per client [None, 5, 3, 82, 18, 321, 3, 0]  false alarms elsewhere (2,700 h) [3, 3, 6, 2, 0, 1, 3, 3]
+  medium    delay per client [15, 1, 2, 55, 4, 7, 0, 1]  false alarms elsewhere (2,700 h) [3, 8, 10, 6, 10, 2, 6, 10]
+  frequent  delay per client [4, 0, 1, 13, 10, 0, 14, 13]  false alarms elsewhere (2,700 h) [16, 19, 17, 17, 25, 18, 18, 16]
+
+##### diag_streams_amplitude.json
+relative MAE (% of mean load), mean over clients: week -1 | wk 0 | wk 1 | wk 2 | wk 3 after event
+  served           3.82   8.93   6.41   6.64   7.54
+  seasonal_naive   6.47  15.67   7.90   9.69   9.65
+  holt_winters     7.13  15.06  10.26  10.93  11.20
+  sarima           4.87   8.96   8.23   8.26   9.74
+  lightgbm         3.95  12.04   6.89   7.01   7.33
+  online_linear    5.05   8.62   7.26   7.66   8.49
+detector alarms in [E, E+336) per client (sparse=default, medium, frequent):
+  sparse    delay per client [118, 16, 11, 34, 18, 265, 77, 2]  false alarms elsewhere (2,700 h) [3, 4, 6, 2, 0, 2, 2, 3]
+  medium    delay per client [39, 2, 11, 30, 2, 24, 8, 8]  false alarms elsewhere (2,700 h) [3, 6, 10, 6, 9, 2, 4, 8]
+  frequent  delay per client [2, 1, 7, 3, 8, 17, 31, 13]  false alarms elsewhere (2,700 h) [17, 19, 20, 17, 25, 18, 17, 15]

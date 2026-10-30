@@ -1,0 +1,24 @@
+pool corr matrix (min off-diagonal): 0.8245
+condition number of Z'Z: 1.01e+04
+gamma 0.95000 (h=   20.0): trace(P) start 7.95e+03  max 1.19e+79  end -1.32e+79  first non-finite step: None  |w|_end 4.01e+00
+gamma 0.99684 (h=  316.2): trace(P) start 6.27e+03  max 6.27e+03  end 1.77e+01  first non-finite step: None  |w|_end 6.57e-01
+gamma 0.99980 (h= 5000.0): trace(P) start 6.17e+03  max 6.17e+03  end 1.68e+00  first non-finite step: None  |w|_end 6.55e-01
+gamma 1.00000 (h=    inf): trace(P) start 6.17e+03  max 6.17e+03  end 1.19e+00  first non-finite step: None  |w|_end 6.62e-01
+
+with safeguard (symmetrise P each step + cap trace(P) at its post-cold-start value):
+  gamma 0.95000 (h=   20.0): MAPE   4.63  min eig(P) end 9.3e-03  steps capped 0
+  gamma 0.96630 (h=   29.7): MAPE   4.13  min eig(P) end 6.4e-03  steps capped 0
+  gamma 0.97728 (h=   44.0): MAPE   3.76  min eig(P) end 4.4e-03  steps capped 0
+  gamma 0.98468 (h=   65.3): MAPE   4.15  min eig(P) end 3.0e-03  steps capped 0
+  gamma 0.98968 (h=   96.9): MAPE   4.30  min eig(P) end 2.1e-03  steps capped 0
+  gamma 0.99304 (h=  143.7): MAPE   4.31  min eig(P) end 1.4e-03  steps capped 0
+  gamma 0.99531 (h=  213.2): MAPE   4.26  min eig(P) end 9.5e-04  steps capped 0
+  gamma 0.99684 (h=  316.2): MAPE   4.20  min eig(P) end 6.4e-04  steps capped 0
+  gamma 0.99787 (h=  469.1): MAPE   4.15  min eig(P) end 4.3e-04  steps capped 0
+  gamma 0.99856 (h=  695.9): MAPE   4.13  min eig(P) end 2.9e-04  steps capped 0
+  gamma 0.99903 (h= 1032.4): MAPE   4.11  min eig(P) end 1.9e-04  steps capped 0
+  gamma 0.99935 (h= 1531.5): MAPE   4.10  min eig(P) end 1.4e-04  steps capped 0
+  gamma 0.99956 (h= 2272.0): MAPE   4.10  min eig(P) end 1.0e-04  steps capped 0
+  gamma 0.99970 (h= 3370.5): MAPE   4.10  min eig(P) end 8.3e-05  steps capped 0
+  gamma 0.99980 (h= 5000.0): MAPE   4.11  min eig(P) end 7.1e-05  steps capped 0
+  gamma 1.00000 (h=    inf): MAPE   4.11  min eig(P) end 4.9e-05  steps capped 0

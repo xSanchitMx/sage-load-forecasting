@@ -1,0 +1,4 @@
+level      events [19113, 22641]  mean ratio wk before e1 1.000  wk after e1 1.300  4wk after e1 1.292  wk after e2 1.000  4wk after e2 1.000  daily std ratio after e1 1.30  untouched before lo: True
+ramp       events [19113, 22641]  mean ratio wk before e1 1.000  wk after e1 1.038  4wk after e1 1.255  wk after e2 1.262  4wk after e2 1.037  daily std ratio after e1 1.29  untouched before lo: True
+amplitude  events [19113, 22641]  mean ratio wk before e1 1.000  wk after e1 0.975  4wk after e1 0.974  wk after e2 1.000  4wk after e2 1.000  daily std ratio after e1 1.50  untouched before lo: True
+temporary  events [19113, 22641]  mean ratio wk before e1 1.000  wk after e1 1.400  4wk after e1 0.994  wk after e2 1.400  4wk after e2 1.000  daily std ratio after e1 1.32  untouched before lo: True

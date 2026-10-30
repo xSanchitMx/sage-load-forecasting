@@ -1,0 +1,279 @@
+{
+  "MT_132": {
+    "best_static_single": {
+      "MAE": 185.85558562790646,
+      "RMSE": 329.0142728420626,
+      "CV_RMSE": 5.102955014978041,
+      "MAPE": 3.931971092299809,
+      "DirAcc": 71.78117048346056,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 206.49013048977596,
+      "RMSE": 336.77175451353895,
+      "CV_RMSE": 5.2232722269248395,
+      "MAPE": 5.091065232546663,
+      "DirAcc": 69.69465648854963,
+      "Regret": 81403.27948007511
+    },
+    "adaptive_deterministic": {
+      "MAE": 182.25698050280647,
+      "RMSE": 309.9786169176126,
+      "CV_RMSE": 4.80771525220429,
+      "MAPE": 4.386064521144886,
+      "DirAcc": 72.90076335877863,
+      "Regret": -14196.497218519566,
+      "RecoveryMedian": 3.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 24
+    },
+    "_timing_sec": {
+      "deterministic": 74.96738963799999
+    },
+    "_n_steps": 3945
+  },
+  "MT_269": {
+    "best_static_single": {
+      "MAE": 119.26229282701158,
+      "RMSE": 165.9461368323334,
+      "CV_RMSE": 3.724796165854115,
+      "MAPE": 2.7451971921864042,
+      "DirAcc": 84.42581300813008,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 132.63530252362844,
+      "RMSE": 178.69666000207528,
+      "CV_RMSE": 4.010992040743773,
+      "MAPE": 3.080275107492212,
+      "DirAcc": 80.6910569105691,
+      "Regret": 52756.523253153544
+    },
+    "adaptive_deterministic": {
+      "MAE": 117.94835906866577,
+      "RMSE": 162.25966017048677,
+      "CV_RMSE": 3.642050195398468,
+      "MAPE": 2.737560523314573,
+      "DirAcc": 83.91768292682927,
+      "Regret": -5183.468676674238,
+      "RecoveryMedian": 0.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 25
+    },
+    "_timing_sec": {
+      "deterministic": 92.762781077
+    },
+    "_n_steps": 3945
+  },
+  "MT_163": {
+    "best_static_single": {
+      "MAE": 70.44372254235824,
+      "RMSE": 100.33839457387577,
+      "CV_RMSE": 4.607237083258967,
+      "MAPE": 3.359760883213937,
+      "DirAcc": 85.94663278271919,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 81.82068846154101,
+      "RMSE": 115.05586377083922,
+      "CV_RMSE": 5.2830189725740055,
+      "MAPE": 3.8910558962780484,
+      "DirAcc": 83.9135959339263,
+      "Regret": 44882.13055117603
+    },
+    "adaptive_deterministic": {
+      "MAE": 71.27047893590613,
+      "RMSE": 101.21017877145988,
+      "CV_RMSE": 4.647266789741378,
+      "MAPE": 3.4063456750137484,
+      "DirAcc": 85.2858958068615,
+      "Regret": 3261.5539725464187,
+      "RecoveryMedian": 1.5,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 25
+    },
+    "_timing_sec": {
+      "deterministic": 86.95774870599996
+    },
+    "_n_steps": 3945
+  },
+  "MT_024": {
+    "best_static_single": {
+      "MAE": 5.814238875837618,
+      "RMSE": 7.969686031924741,
+      "CV_RMSE": 9.962012843966345,
+      "MAPE": 7.486790369883193,
+      "DirAcc": 79.95251912424163,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 5.960197900955517,
+      "RMSE": 8.170732734150942,
+      "CV_RMSE": 10.213318832908897,
+      "MAPE": 7.607829117645218,
+      "DirAcc": 78.76549723028225,
+      "Regret": 575.8083540901134
+    },
+    "adaptive_deterministic": {
+      "MAE": 5.652763323986723,
+      "RMSE": 7.771271824214118,
+      "CV_RMSE": 9.713997441888921,
+      "MAPE": 7.2410239543611805,
+      "DirAcc": 80.32181482458455,
+      "Regret": -637.0210520517794,
+      "RecoveryMedian": 0.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 24
+    },
+    "_timing_sec": {
+      "deterministic": 71.84555467799998
+    },
+    "_n_steps": 3945
+  },
+  "MT_135": {
+    "best_static_single": {
+      "MAE": 35.19237448423818,
+      "RMSE": 59.82050745081174,
+      "CV_RMSE": 15.913507247870301,
+      "MAPE": 11.290047107554646,
+      "DirAcc": 79.68270214943706,
+      "Regret": 0.0,
+      "which": "lightgbm"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 41.21963910144395,
+      "RMSE": 63.12437248873921,
+      "CV_RMSE": 16.79240451015574,
+      "MAPE": 15.241206526392926,
+      "DirAcc": 77.2517911975435,
+      "Regret": 23777.558914876776
+    },
+    "adaptive_deterministic": {
+      "MAE": 36.859238772837934,
+      "RMSE": 61.1790083537343,
+      "CV_RMSE": 16.27489692652979,
+      "MAPE": 12.037115166162758,
+      "DirAcc": 80.14329580348004,
+      "Regret": 6575.779618526052,
+      "RecoveryMedian": 12.0,
+      "NonRecoveryRate": 0.04,
+      "n_drift": 25
+    },
+    "_timing_sec": {
+      "deterministic": 70.83887987100002
+    },
+    "_n_steps": 3945
+  },
+  "MT_105": {
+    "best_static_single": {
+      "MAE": 15.878520725935205,
+      "RMSE": 22.810354342241972,
+      "CV_RMSE": 5.309857650241934,
+      "MAPE": 3.7169898858871857,
+      "DirAcc": 64.0458214006769,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 18.67060755200538,
+      "RMSE": 27.542855249025816,
+      "CV_RMSE": 6.411502358063393,
+      "MAPE": 4.281840904064768,
+      "DirAcc": 63.44701900546733,
+      "Regret": 11014.78252884683
+    },
+    "adaptive_deterministic": {
+      "MAE": 15.128040489529726,
+      "RMSE": 21.88715923033992,
+      "CV_RMSE": 5.094953727486069,
+      "MAPE": 3.531837817219334,
+      "DirAcc": 65.39963551158553,
+      "Regret": -2960.644532619619,
+      "RecoveryMedian": 10.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 26
+    },
+    "_timing_sec": {
+      "deterministic": 79.71494669799995
+    },
+    "_n_steps": 3945
+  },
+  "MT_121": {
+    "best_static_single": {
+      "MAE": 15.807241336685948,
+      "RMSE": 36.78054753859829,
+      "CV_RMSE": 2.736498208155415,
+      "MAPE": 1.2141122751851299,
+      "DirAcc": 72.20921155347385,
+      "Regret": 0.0,
+      "which": "lightgbm"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 18.685501407861942,
+      "RMSE": 39.29483121890721,
+      "CV_RMSE": 2.923562655163426,
+      "MAPE": 1.426186005588472,
+      "DirAcc": 69.03460837887067,
+      "Regret": 11354.735980789294
+    },
+    "adaptive_deterministic": {
+      "MAE": 15.206817984227675,
+      "RMSE": 38.287629387374615,
+      "CV_RMSE": 2.8486261413894707,
+      "MAPE": 1.1714511504484333,
+      "DirAcc": 72.05308352849336,
+      "Regret": -2368.670125447883,
+      "RecoveryMedian": 36.0,
+      "NonRecoveryRate": 0.0,
+      "n_drift": 26
+    },
+    "_timing_sec": {
+      "deterministic": 65.01748544299994
+    },
+    "_n_steps": 3945
+  },
+  "MT_118": {
+    "best_static_single": {
+      "MAE": 4.824148022812183,
+      "RMSE": 8.332856969200412,
+      "CV_RMSE": 2.7019995317769716,
+      "MAPE": 1.5604178754121734,
+      "DirAcc": 71.94459532862575,
+      "Regret": 0.0,
+      "which": "sarima"
+    },
+    "equal_weight_ensemble": {
+      "MAE": 4.966029578027361,
+      "RMSE": 8.181737851045892,
+      "CV_RMSE": 2.652997876281708,
+      "MAPE": 1.6018350666913441,
+      "DirAcc": 71.40141227593699,
+      "Regret": 559.7227353238741
+    },
+    "adaptive_deterministic": {
+      "MAE": 4.559778889662587,
+      "RMSE": 7.9010754411709305,
+      "CV_RMSE": 2.561990709967379,
+      "MAPE": 1.4703789960819518,
+      "DirAcc": 73.38403041825094,
+      "Regret": -1042.9362302751579,
+      "RecoveryMedian": 10.0,
+      "NonRecoveryRate": 0.04,
+      "n_drift": 25
+    },
+    "_timing_sec": {
+      "deterministic": 57.099381564000055
+    },
+    "_n_steps": 3945
+  },
+  "_config": {
+    "block": "val",
+    "gamma": 0.95,
+    "ucb_c": 1.0
+  }
+}

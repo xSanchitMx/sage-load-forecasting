@@ -1,0 +1,112 @@
+{
+  "clients": [
+    "MT_132",
+    "MT_269",
+    "MT_163",
+    "MT_024",
+    "MT_135",
+    "MT_105",
+    "MT_121",
+    "MT_118"
+  ],
+  "pool_ms_per_step": 18.278070594684714,
+  "seasonal_naive_ms_per_step": 0.0023688772271118243,
+  "rows": {
+    "seasonal_naive": {
+      "MAPE": 9.617461602098722,
+      "CV_RMSE": 13.606040317760762,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.0,
+      "ms_per_step": 0.0023688772271118243,
+      "cost_vs_pool": 0.00012960214891612776
+    },
+    "holt_winters": {
+      "MAPE": 9.626742273344005,
+      "CV_RMSE": 9.959049688866445,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.9853372434017595,
+      "ms_per_step": 0.007841316906359272,
+      "cost_vs_pool": 0.0004290013470371176
+    },
+    "sarima": {
+      "MAPE": 6.252128863959612,
+      "CV_RMSE": 7.915220681180795,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.9853372434017595,
+      "ms_per_step": 16.863962860460376,
+      "cost_vs_pool": 0.9226336430369427
+    },
+    "lightgbm": {
+      "MAPE": 5.549255634765805,
+      "CV_RMSE": 7.862823133159816,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.9853372434017595,
+      "ms_per_step": 1.1297740341585347,
+      "cost_vs_pool": 0.06181035510865542
+    },
+    "online_linear": {
+      "MAPE": 6.167143938996219,
+      "CV_RMSE": 7.686516013519929,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.0,
+      "ms_per_step": 0.27412350593233314,
+      "cost_vs_pool": 0.014997398358448655
+    },
+    "val-chosen single": {
+      "MAPE": 5.192589610544873,
+      "CV_RMSE": 7.465189850878454,
+      "switches_per_week": 0.0,
+      "refits_per_week": 0.9853372434017595,
+      "ms_per_step": 13.18537784737159,
+      "cost_vs_pool": 0.7213768969251008
+    },
+    "equal-weight ensemble": {
+      "MAPE": 6.144542305659047,
+      "CV_RMSE": 7.588185451714292,
+      "switches_per_week": 0.0,
+      "refits_per_week": 2.9560117302052786,
+      "ms_per_step": 18.278070594684714,
+      "cost_vs_pool": 1.0
+    },
+    "controller (deterministic)": {
+      "MAPE": 5.101480976257575,
+      "CV_RMSE": 6.647320733404681,
+      "switches_per_week": 1.9752362333007494,
+      "blendset_changes_per_week": 1.97979797979798,
+      "arm_switches_per_week": 0.0,
+      "drift_per_week": 0.2144020853698273,
+      "refits_per_week": 3.339198435972629,
+      "refits_drift_share": 0.18985419484416577,
+      "ms_per_step": 20.25059598400972,
+      "control_share": 0.0018126052214612943,
+      "ms_per_step_by_phase": {
+        "predict": 1.4873415389830027,
+        "update": 2.7612964503636244,
+        "retrain_drift": 3.202779073614818,
+        "retrain_scheduled": 12.762985588951672,
+        "control": 0.036193332096604316
+      },
+      "cost_vs_pool": 1.1079175933316845
+    },
+    "controller (+ bandit)": {
+      "MAPE": 5.0062626962432475,
+      "CV_RMSE": 6.742628668243611,
+      "switches_per_week": 1.7289019224503095,
+      "blendset_changes_per_week": 2.207885304659498,
+      "arm_switches_per_week": 1.7494297816878461,
+      "drift_per_week": 0.24633431085043989,
+      "refits_per_week": 3.3802541544477025,
+      "refits_drift_share": 0.2163539543089361,
+      "ms_per_step": 19.30335161757276,
+      "control_share": 0.0028580481892930853,
+      "ms_per_step_by_phase": {
+        "predict": 1.4392162716134216,
+        "update": 2.6622689238444117,
+        "retrain_drift": 3.2299494318828397,
+        "retrain_scheduled": 11.916941665294784,
+        "control": 0.05497532493730173
+      },
+      "cost_vs_pool": 1.0560935038289105
+    }
+  }
+}

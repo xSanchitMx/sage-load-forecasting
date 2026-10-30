@@ -1,0 +1,8 @@
+## Controller with the MELO combiner (weekly refit)
+
+| Method | MAE | RMSE | CV-RMSE % | MAPE % |
+|---|---|---|---|---|
+| MELO combiner, no drift (= MELO alone) | 66.50 | 101.37 | 6.47 | 4.82 |
+| MELO combiner + drift-triggered retraining | 66.53 | 101.21 | 6.33 | 4.80 |
+| MELO combiner + drift retraining + covariance reset on alarm | 66.61 | 101.81 | 6.38 | 4.81 |
+

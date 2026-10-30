@@ -1,0 +1,536 @@
+[
+  {
+    "cfg": {
+      "ph_threshold": 3.0,
+      "ph_mode": "both",
+      "clip": null,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 1.064638783269962,
+    "adwin_share": 0.08,
+    "timer_share": 0.8401358695652174,
+    "lift": 1.2544845101540105
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 1.3201520912547529,
+    "adwin_share": 0.0,
+    "timer_share": 0.06967800126367901,
+    "lift": 1.3917737590366621
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.6813688212927757,
+    "adwin_share": 0.0,
+    "timer_share": 0.3800462952939733,
+    "lift": 1.3498861418200578
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.30342205323193916,
+    "adwin_share": 0.0,
+    "timer_share": 0.013888888888888888,
+    "lift": 1.725172527277308
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.27148288973384027,
+    "adwin_share": 0.0,
+    "timer_share": 0.03125,
+    "lift": 1.653025758140858
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.12775665399239544,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.257750216284969
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.12775665399239544,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.257750216284969
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.04790874524714829,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.3433266866425955
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.04790874524714829,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.3433266866425955
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.02129277566539924,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.7874698948876144
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": null,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.02129277566539924,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 2.7874698948876144
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 1.2403041825095056,
+    "adwin_share": 0.0,
+    "timer_share": 0.04900194461335766,
+    "lift": 1.4308427537799127
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.7239543726235741,
+    "adwin_share": 0.0,
+    "timer_share": 0.46701543640398135,
+    "lift": 1.3295947301704625
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.23954372623574144,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.8590940581264386
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.23422053231939163,
+    "adwin_share": 0.0,
+    "timer_share": 0.0625,
+    "lift": 1.8587515901280969
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.09049429657794676,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.6781834394257498
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.09049429657794676,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.6781834394257498
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.03193916349809886,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.306291684720838
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.03193916349809886,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.306291684720838
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.01596958174904943,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.4117766030261436
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 5.0,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.01596958174904943,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.4117766030261436
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 1.3201520912547529,
+    "adwin_share": 0.0,
+    "timer_share": 0.07149822210563898,
+    "lift": 1.4149696972298504
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 10.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.7079847908745247,
+    "adwin_share": 0.0,
+    "timer_share": 0.4068116416607129,
+    "lift": 1.3313683937684129
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.26083650190114066,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.761430381192837
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 25.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.2555133079847909,
+    "adwin_share": 0.0,
+    "timer_share": 0.03125,
+    "lift": 1.7451924350204897
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.10114068441064639,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.8586464364835114
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 50.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.10114068441064639,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.8586464364835114
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.037262357414448666,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.682430577039469
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 100.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.037262357414448666,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.682430577039469
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 24
+    },
+    "alarms_per_week": 0.01596958174904943,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.3197693519025904
+  },
+  {
+    "cfg": {
+      "use_adwin": false,
+      "ph_mode": "up",
+      "clip": 10.0,
+      "ph_threshold": 200.0,
+      "ph_min_instances": 168
+    },
+    "alarms_per_week": 0.01596958174904943,
+    "adwin_share": 0.0,
+    "timer_share": 0.0,
+    "lift": 1.3197693519025904
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": null,
+      "adwin_delta": 0.002
+    },
+    "alarms_per_week": 0.08517110266159696,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.8536273967015156
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": null,
+      "adwin_delta": 0.01
+    },
+    "alarms_per_week": 0.13307984790874525,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.329925020602111
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": null,
+      "adwin_delta": 0.05
+    },
+    "alarms_per_week": 0.20760456273764258,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.152730737206017
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": null,
+      "adwin_delta": 0.2
+    },
+    "alarms_per_week": 0.31406844106463877,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.68574587063207
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 5.0,
+      "adwin_delta": 0.002
+    },
+    "alarms_per_week": 0.07984790874524715,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.7950405904336857
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 5.0,
+      "adwin_delta": 0.01
+    },
+    "alarms_per_week": 0.12775665399239544,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.5471007662544962
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 5.0,
+      "adwin_delta": 0.05
+    },
+    "alarms_per_week": 0.1703422053231939,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.631836618178561
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 5.0,
+      "adwin_delta": 0.2
+    },
+    "alarms_per_week": 0.30342205323193916,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.4234588397795456
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 10.0,
+      "adwin_delta": 0.002
+    },
+    "alarms_per_week": 0.09049429657794676,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.1745419865638005
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 10.0,
+      "adwin_delta": 0.01
+    },
+    "alarms_per_week": 0.13307984790874525,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.35494250514096
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 10.0,
+      "adwin_delta": 0.05
+    },
+    "alarms_per_week": 0.19163498098859316,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 2.1292401631981863
+  },
+  {
+    "cfg": {
+      "use_ph": false,
+      "clip": 10.0,
+      "adwin_delta": 0.2
+    },
+    "alarms_per_week": 0.3193916349809886,
+    "adwin_share": 1.0,
+    "timer_share": 0.0,
+    "lift": 1.8641141554855545
+  }
+]

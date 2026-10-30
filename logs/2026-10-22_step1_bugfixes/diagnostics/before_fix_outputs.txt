@@ -1,0 +1,39 @@
+Diagnostic outputs captured BEFORE the step-1 fixes (original models.py), copied verbatim
+from the 2026-10-22 session terminal. Scripts are in this folder; run them from code/.
+
+=== hw_diag.py : Holt-Winters started at the test boundary (buggy seasonal phase) ===
+(own MAPE formula, no zero mask -> the huge MAPE; median APE is the meaningful number)
+MT_269 MAPE 49633251.32 median APE 32.17 zeros in y 1 min y 0.0 mean y 4212.0
+   trend at end 4.06 level 4062.2
+MT_163 MAPE 182739244.41 median APE 33.0 zeros in y 24 min y 0.0 mean y 2101.0
+   trend at end 2.99 level 2004.5
+MT_132 MAPE 44897313.67 median APE 10.78 zeros in y 1 min y 0.0 mean y 6001.0
+   trend at end -16.28 level 5640.7
+
+=== hw_m.py (original 3-variant version): HW seasonal period m=24 vs m=168, val vs test MAPE ===
+(* = alpha 0.05, beta 0, gamma 0.2). Weekly season did NOT help -> season length not the cause.
+MT_132 | val/m24 6.4 | val/m168 7.7 | val/m168* 10.1 | test/m24 14.9 | test/m168 18.1 | test/m168* 19.7
+MT_269 | val/m24 3.2 | val/m168 4.3 | val/m168* 4.6 | test/m24 42.5 | test/m168 51.7 | test/m168* 53.7
+MT_163 | val/m24 4.5 | val/m168 6.1 | val/m168* 6.4 | test/m24 45.3 | test/m168 54.6 | test/m168* 58.1
+MT_024 | val/m24 8.9 | val/m168 11.3 | val/m168* 11.7 | test/m24 30.7 | test/m168 38.1 | test/m168* 37.5
+MT_135 | val/m24 33.0 | val/m168 44.0 | val/m168* 57.9 | test/m24 84.0 | test/m168 98.6 | test/m168* 116.9
+MT_105 | val/m24 6.1 | val/m168 8.4 | val/m168* 10.0 | test/m24 12.2 | test/m168 14.5 | test/m168* 17.1
+MT_121 | val/m24 2.7 | val/m168 3.9 | val/m168* 4.9 | test/m24 4.9 | test/m168 6.0 | test/m168* 6.9
+MT_118 | val/m24 2.0 | val/m168 2.7 | val/m168* 3.2 | test/m24 4.3 | test/m168 5.1 | test/m168* 5.7
+
+=== hw_time.py : MT_269 HW run continuously from the start of val (monthly MAPE) ===
+Started at val start (phase happened to align) the test months are only 4-5% MAPE, while
+starting at the test boundary gives 42% -> the error depends on where the seed window
+starts => seasonal-phase bug in HoltWinters._seed (seas[h] should be seas[(lo+h) % m]).
+test starts 2013-12-13 09:00:00
+2013-07 2.9 | 2013-08 2.8 | 2013-09 3.5 | 2013-10 3.7 | 2013-11 3.2 | 2013-12 5.0
+2014-01 5.1 | 2014-02 4.1 | 2014-03 3.7 | 2014-04 3.7 | 2014-05 4.9 | 2014-06 4.7
+2014-07 4.5 | 2014-08 4.6 | 2014-09 4.9 | 2014-10 4.4 | 2014-11 4.0 | 2014-12 5.4
+
+=== recovery metric, OLD definition (168 h window), from logs/2026-09-09_v1_original ===
+RecoveryMedian = 1.0 h on all 8 clients -> metric was degenerate.
+New definition on the same old MT_132 run: n drift 59, recovered 57, non-rec 0,
+median 6.0 h, quartiles [0, 29], p90 81.2, 25 detections with recovery 0.
+
+=== bandit (old gamma 0.95, c 1.0), from controller_results.json of 2026-09-09 ===
+force_best_share per client: 0.50 0.47 0.50 0.51 0.51 0.46 0.48 0.51 -> coin flip, not learning.
